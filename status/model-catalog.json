@@ -1,14 +1,23 @@
 {
   "id": "model-catalog",
-  "date": "2026-10-21T11:55:00Z",
+  "date": "2026-10-21T12:10:00Z",
   "result": "partial",
-  "summary": "Updater failing daily since 2026-10-15 (ChatGPT retirement notice reworded, parser fails closed); draft PR #167 stale since 2026-10-14, Unit red via #169; claude-haiku-5-5 absent from pinned LiteLLM 1.103.2.",
-  "waiting": [
-    {"link": "https://github.com/taxiway-sh/taxiway/actions/runs/39530273293", "action": "OK a tracking issue (create-issue): ChatGPT retirement parser in internal/modelupdate/sources.go rejects the reworded GPT-5.5 notice."},
-    {"link": "https://github.com/taxiway-sh/taxiway/pull/167", "action": "Draft since 2026-10-14, Unit red (blocked by #169), gpt-5.5 part already on main: fix #169 or close and let the updater regenerate it."}
-  ],
+  "summary": "Updater failing daily since 2026-10-15 (reworded ChatGPT retirement notice); tracked in #255. Draft PR #167 left as is per maintainer; claude-haiku-5-5 absent from pinned LiteLLM 1.103.2.",
+  "waiting": [],
   "promptVersion": "e2af505c8a5fd5ef2bc01ebbba8ad1b258bba171",
   "frictions": [
-    {"kind": "tool-refused", "summary": "gh pr list refused (GraphQL unavailable in cloud sessions); used the REST pulls endpoint instead."}
+    {
+      "kind": "tool-refused",
+      "summary": "gh pr list refused (GraphQL unavailable in cloud sessions); used the REST pulls endpoint instead."
+    }
+  ],
+  "approvals": [
+    {
+      "class": "create-issue",
+      "proposal": "https://github.com/taxiway-sh/taxiway/actions/runs/39530273293",
+      "answer": "ok",
+      "date": "2026-10-21T12:05:00Z",
+      "link": "https://github.com/taxiway-sh/taxiway/issues/255"
+    }
   ]
 }
