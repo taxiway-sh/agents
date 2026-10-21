@@ -15,6 +15,11 @@
       "model": "default",
       "promptVersion": "58dce94a588325fb0d350cb833727d0f3c8efc40"
     },
+    "improvement": {
+      "schedule": "45 3 * * 1",
+      "model": "default",
+      "promptVersion": "2a8774b44cf071d8066dac6f86d96094e88d7205"
+    },
     "model-catalog": {
       "schedule": "50 3 * * *",
       "model": "default",
