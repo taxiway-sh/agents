@@ -1,14 +1,34 @@
 {
   "agents": {
+    "ci-watch": {
+      "schedule": "0 4,7 * * *",
+      "model": "default",
+      "promptVersion": "e2af505c8a5fd5ef2bc01ebbba8ad1b258bba171"
+    },
+    "contributions": {
+      "schedule": "20 7-17/3 * * 1-5",
+      "model": "default",
+      "promptVersion": "e2af505c8a5fd5ef2bc01ebbba8ad1b258bba171"
+    },
+    "dependency-watch": {
+      "schedule": "40 3 * * 1",
+      "model": "default",
+      "promptVersion": "e2af505c8a5fd5ef2bc01ebbba8ad1b258bba171"
+    },
+    "model-catalog": {
+      "schedule": "50 3 * * *",
+      "model": "default",
+      "promptVersion": "e2af505c8a5fd5ef2bc01ebbba8ad1b258bba171"
+    },
     "triage": {
       "schedule": "15 4 * * 1-5",
-      "promptVersion": "8115822a4be1f93caa418161ba7765ecac07dd1b",
-      "model": "default"
+      "model": "default",
+      "promptVersion": "e2af505c8a5fd5ef2bc01ebbba8ad1b258bba171"
     },
     "watchdog": {
       "schedule": "45 4 * * *",
       "model": "default",
-      "promptVersion": "ae0a24e49c266619daf77a097dc8cd93e5732a1e"
+      "promptVersion": "e2af505c8a5fd5ef2bc01ebbba8ad1b258bba171"
     }
   }
 }
