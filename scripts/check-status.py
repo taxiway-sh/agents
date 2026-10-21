@@ -10,32 +10,31 @@ import sys
 
 from jsonschema import Draft202012Validator, FormatChecker
 
+if len(sys.argv) != 4:
+    sys.exit("usage: check-status.py ROOT STATUS_SCHEMA QUEUE_SCHEMA")
 root = pathlib.Path(sys.argv[1])
-schema = json.loads(pathlib.Path(sys.argv[2]).read_text())
-validator = Draft202012Validator(schema, format_checker=FormatChecker())
-queue_schema = json.loads(pathlib.Path(sys.argv[3]).read_text())
-queue_validator = Draft202012Validator(queue_schema, format_checker=FormatChecker())
 errors = []
-for path in sorted((root / "status").glob("*.json")):
-    try:
-        data = json.loads(path.read_text())
-    except ValueError as err:
-        errors.append(f"{path.name}: invalid JSON: {err}")
-        continue
-    for error in validator.iter_errors(data):
-        errors.append(f"{path.name}: {error.message}")
-    if isinstance(data, dict) and data.get("id") != path.stem:
-        errors.append(f"{path.name}: id must be {path.stem!r}")
-for path in sorted((root / "queue" / "machine").glob("*.json")):
-    try:
-        data = json.loads(path.read_text())
-    except ValueError as err:
-        errors.append(f"queue/machine/{path.name}: invalid JSON: {err}")
-        continue
-    for error in queue_validator.iter_errors(data):
-        errors.append(f"queue/machine/{path.name}: {error.message}")
-    if isinstance(data, dict) and data.get("id") != path.stem:
-        errors.append(f"queue/machine/{path.name}: id must be {path.stem!r}")
+
+
+def validate(folder, schema_path):
+    """Validate every JSON file in ROOT/folder and check its id matches its name."""
+    schema = json.loads(pathlib.Path(schema_path).read_text())
+    validator = Draft202012Validator(schema, format_checker=FormatChecker())
+    for path in sorted((root / folder).glob("*.json")):
+        name = f"{folder}/{path.name}"
+        try:
+            data = json.loads(path.read_text())
+        except ValueError as err:
+            errors.append(f"{name}: invalid JSON: {err}")
+            continue
+        for error in validator.iter_errors(data):
+            errors.append(f"{name}: {error.message}")
+        if isinstance(data, dict) and data.get("id") != path.stem:
+            errors.append(f"{name}: id must be {path.stem!r}")
+
+
+validate("status", sys.argv[2])
+validate("queue/machine", sys.argv[3])
 deployed = json.loads((root / "deployed.json").read_text())
 if not isinstance(deployed.get("agents"), dict):
     errors.append("deployed.json: agents must be an object")
