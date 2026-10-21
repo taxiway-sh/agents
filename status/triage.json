@@ -1,8 +1,8 @@
 {
   "id": "triage",
-  "date": "2026-10-21T12:00:00Z",
+  "date": "2026-10-21T12:30:00Z",
   "result": "ok",
-  "summary": "Maintainer approved triage-20261021-1 to -7; labels applied on #231, #223, #211, #212, #213, #214 and #222. Nothing else waits on the maintainer.",
+  "summary": "Maintainer approved triage-20261021-1 to -8: labels applied on 7 issues and the exclusion design decision recorded on #223. Nothing else waits on the maintainer.",
   "waiting": [],
   "promptVersion": "e2af505c8a5fd5ef2bc01ebbba8ad1b258bba171",
   "approvals": [
@@ -54,6 +54,13 @@
       "answer": "ok",
       "date": "2026-10-21T12:00:00Z",
       "link": "https://github.com/taxiway-sh/taxiway/issues/222"
+    },
+    {
+      "class": "comment-issue",
+      "proposal": "triage-20261021-8",
+      "answer": "ok",
+      "date": "2026-10-21T12:30:00Z",
+      "link": "https://github.com/taxiway-sh/taxiway/issues/223#issuecomment-6318807792"
     }
   ],
   "frictions": [
