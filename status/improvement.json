@@ -1,0 +1,27 @@
+{
+  "id": "improvement",
+  "date": "2026-10-21T13:41:35Z",
+  "result": "ok",
+  "summary": "Week 2026-10-12..19: no proposals; no heartbeats or merged PRs in the week, and the recurring Codex E2E and macOS/Lima install failures are tracked by #99, #219 and #231.",
+  "waiting": [],
+  "promptVersion": "2a8774b44cf071d8066dac6f86d96094e88d7205",
+  "frictions": [
+    {
+      "kind": "tool-refused",
+      "summary": "Attaching taxiway-sh/agents with add_repo was denied by the auto mode classifier at setup until the maintainer approved a retry."
+    },
+    {
+      "kind": "tool-refused",
+      "summary": "The first heartbeat push was refused by the session's permission check until the maintainer approved a retry."
+    },
+    {
+      "kind": "check-not-run",
+      "summary": "Machine queue waits were not read: the state repository has no queue/ directory yet.",
+      "link": "https://github.com/taxiway-sh/taxiway/issues/197"
+    },
+    {
+      "kind": "check-not-run",
+      "summary": "Review rounds per PR could not be counted: no PR merged in the five weeks carries an Independent review line."
+    }
+  ]
+}
