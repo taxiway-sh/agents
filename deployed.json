@@ -1,0 +1,8 @@
+{
+  "agents": {
+    "triage": {
+      "schedule": "15 4 * * 1-5",
+      "promptVersion": "8115822a4be1f93caa418161ba7765ecac07dd1b"
+    }
+  }
+}

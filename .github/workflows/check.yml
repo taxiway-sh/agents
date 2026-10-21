@@ -1,0 +1,20 @@
+name: Check state
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Install validator
+        run: pip install "jsonschema[format]==4.23.0"
+      - name: Fetch the heartbeat schema from Taxiway main
+        run: curl -fsSL -o /tmp/status.schema.json https://raw.githubusercontent.com/taxiway-sh/taxiway/main/.agents/agents/status.schema.json
+      - name: Validate heartbeats and deployed.json
+        run: python3 scripts/check-status.py . /tmp/status.schema.json
