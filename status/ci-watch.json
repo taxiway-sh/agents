@@ -1,0 +1,20 @@
+{
+  "id": "ci-watch",
+  "date": "2026-10-21T11:55:00Z",
+  "result": "ok",
+  "summary": "install.yml macOS/lima failing 3 nights (Lima guest never finishes booting); e2e.yml skipped once by the #199 schedule change; model catalog red, owned by the catalog agent.",
+  "waiting": [
+    {
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/39524790236",
+      "action": "ci-watch-20261021-1 (create-issue): open an issue for the macOS/lima Verify installation failure, Lima guest boot never completes, 3 nights."
+    }
+  ],
+  "promptVersion": "e2af505c8a5fd5ef2bc01ebbba8ad1b258bba171",
+  "approvals": [],
+  "frictions": [
+    {
+      "kind": "tool-refused",
+      "summary": "gh pr list uses GraphQL, which cloud sessions refuse; used the REST pulls endpoint instead."
+    }
+  ]
+}
