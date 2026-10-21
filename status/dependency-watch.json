@@ -1,0 +1,37 @@
+{
+  "id": "dependency-watch",
+  "date": "2026-10-21T11:48:20Z",
+  "result": "partial",
+  "summary": "First run: Langfuse 3.225.11->4.66.0 (v4 needs ClickHouse>=25.12; pinned 25.3) and LiteLLM 1.103.2->1.107.0 drafted as issues. Gas City, Gas Town, Beads, Dolt and gascity#5985 (#178) unverified: no upstream GitHub access.",
+  "waiting": [
+    {
+      "link": "https://github.com/taxiway-sh/taxiway/issues",
+      "action": "Approve or decline the drafted issue: plan the Langfuse v4 upgrade, starting with ClickHouse >= 25.12 (create-issue)."
+    },
+    {
+      "link": "https://github.com/taxiway-sh/taxiway/issues",
+      "action": "Approve or decline the drafted issue: bump LiteLLM 1.103.2 -> 1.107.0 (create-issue)."
+    },
+    {
+      "link": "https://github.com/taxiway-sh/taxiway/issues/178",
+      "action": "Grant this agent read access to the gastownhall and dolthub release channels so gascity#5985 and the Gas City, Gas Town, Beads and Dolt releases can be checked."
+    }
+  ],
+  "promptVersion": "e2af505c8a5fd5ef2bc01ebbba8ad1b258bba171",
+  "approvals": [],
+  "frictions": [
+    {
+      "kind": "check-not-run",
+      "summary": "Upstream GitHub unreachable (github.com 403; gastownhall/*, dolthub/dolt outside session scope): Gas City, Gas Town, Beads, Dolt releases and gascity#5985 not read.",
+      "link": "https://github.com/taxiway-sh/taxiway/issues/178"
+    },
+    {
+      "kind": "missing-rule",
+      "summary": "Where versions live names no non-GitHub official release channel for Gas City, Gas Town, Beads or Dolt; Homebrew used as a hint only (lags: gastown 1.1.0)."
+    },
+    {
+      "kind": "tool-refused",
+      "summary": "gh issue view fails: GraphQL is blocked in cloud sessions; used gh api REST instead."
+    }
+  ]
+}
