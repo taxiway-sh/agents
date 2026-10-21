@@ -8,7 +8,7 @@
     "watchdog": {
       "schedule": "45 4 * * *",
       "model": "default",
-      "promptVersion": "73f93588374a575caee6baa4d889596a8b2f753b"
+      "promptVersion": "ae0a24e49c266619daf77a097dc8cd93e5732a1e"
     }
   }
 }
