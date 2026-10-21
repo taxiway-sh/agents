@@ -1,0 +1,20 @@
+{
+  "id": "triage",
+  "date": "2026-10-21T06:35:00Z",
+  "result": "ok",
+  "summary": "First triage run: 116 open issues and 13 open PRs reviewed; 8 issues need triage labels, 2 external PRs and the model catalog bot PR wait on the maintainer.",
+  "waiting": [
+    {"link": "https://github.com/taxiway-sh/taxiway/pull/96", "action": "External PR for #75, idle since 2026-09-11 with no CI run or review: approve fork CI and review, or ask for a rebase."},
+    {"link": "https://github.com/taxiway-sh/taxiway/pull/95", "action": "External PR for #73: rebase and E2E assertions requested on 2026-10-21, awaiting contributor; decide on a deadline."},
+    {"link": "https://github.com/taxiway-sh/taxiway/issues/171", "action": "External feature request, 5 days without a reply: triage, set priority and area, and answer the reporter."},
+    {"link": "https://github.com/taxiway-sh/taxiway/issues/223", "action": "Triage: set priority, add agent:claude-code; pick proactive vs wait-for-flake direction."},
+    {"link": "https://github.com/taxiway-sh/taxiway/issues/215", "action": "Triage: add a type label and priority; PR #216 already covers it."},
+    {"link": "https://github.com/taxiway-sh/taxiway/issues/214", "action": "Triage: set priority and remove needs-triage."},
+    {"link": "https://github.com/taxiway-sh/taxiway/issues/213", "action": "Triage: set priority and remove needs-triage."},
+    {"link": "https://github.com/taxiway-sh/taxiway/issues/212", "action": "Triage: set priority and remove needs-triage."},
+    {"link": "https://github.com/taxiway-sh/taxiway/issues/211", "action": "Triage: set priority and remove needs-triage."},
+    {"link": "https://github.com/taxiway-sh/taxiway/issues/222", "action": "Triage: set priority and remove needs-triage."},
+    {"link": "https://github.com/taxiway-sh/taxiway/pull/167", "action": "Model catalog bot PR, draft since 2026-10-14 with no checks; blocked by #169: fix #169 or close and regenerate."}
+  ],
+  "promptVersion": "8115822a4be1f93caa418161ba7765ecac07dd1b"
+}
