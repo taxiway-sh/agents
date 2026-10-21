@@ -1,23 +1,38 @@
 {
   "id": "contributions",
-  "date": "2026-10-21T13:23:57Z",
+  "date": "2026-10-21T16:21:42Z",
   "result": "ok",
-  "summary": "No new external activity since the last run; the #96 review draft and the #171 reply draft still await approval, and #95 waits on its contributor.",
+  "summary": "#96 was rebased and fixes both blocking findings; a COMMENT review draft awaits approval. #171 waits on its reporter, #95 on its contributor.",
   "waiting": [
     {
       "link": "https://github.com/taxiway-sh/taxiway/pull/96",
-      "action": "contributions-20261021-1: approve the REQUEST_CHANGES review draft; then approve fork CI after the push and choose the merge path."
-    },
-    {
-      "link": "https://github.com/taxiway-sh/taxiway/issues/171",
-      "action": "contributions-20261021-2: approve the acknowledgement comment asking which engine and flags are meant; then triage."
+      "action": "contributions-20261021-3: approve the COMMENT re-review draft; approve the pending fork CI run; carry on a Taxiway branch for lifecycle E2E."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/pull/95",
       "action": "Waits on the contributor's rebase requested 2026-10-21; approve fork CI after the push and choose the merge path."
+    },
+    {
+      "link": "https://github.com/taxiway-sh/taxiway/issues/171",
+      "action": "Waits on the reporter's answer to the 2026-10-21 question; still needs-triage for labels and priority."
     }
   ],
-  "promptVersion": "2a8774b44cf071d8066dac6f86d96094e88d7205",
-  "approvals": [],
+  "promptVersion": "47bb147a0ef509290e70f5ecfe3f93dbe94c5eb6",
+  "approvals": [
+    {
+      "class": "review-pr",
+      "proposal": "contributions-20261021-1",
+      "answer": "ok",
+      "date": "2026-10-21T14:20:45Z",
+      "link": "https://github.com/taxiway-sh/taxiway/pull/96#pullrequestreview-5601226217"
+    },
+    {
+      "class": "comment-issue",
+      "proposal": "contributions-20261021-2",
+      "answer": "ok",
+      "date": "2026-10-21T14:20:47Z",
+      "link": "https://github.com/taxiway-sh/taxiway/issues/171#issuecomment-6318402411"
+    }
+  ],
   "frictions": []
 }
