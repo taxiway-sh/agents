@@ -13,7 +13,7 @@
     "dependency-watch": {
       "schedule": "40 3 * * 1",
       "model": "default",
-      "promptVersion": "e2af505c8a5fd5ef2bc01ebbba8ad1b258bba171"
+      "promptVersion": "58dce94a588325fb0d350cb833727d0f3c8efc40"
     },
     "model-catalog": {
       "schedule": "50 3 * * *",
