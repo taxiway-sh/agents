@@ -1,8 +1,8 @@
 {
   "id": "contributions",
-  "date": "2026-10-21T11:55:00Z",
+  "date": "2026-10-21T13:23:57Z",
   "result": "ok",
-  "summary": "First run over the past 7 days: 3 open external contributions; a review draft for #96 and a reply draft for #171 await approval, #95 waits on its contributor.",
+  "summary": "No new external activity since the last run; the #96 review draft and the #171 reply draft still await approval, and #95 waits on its contributor.",
   "waiting": [
     {
       "link": "https://github.com/taxiway-sh/taxiway/pull/96",
@@ -17,22 +17,7 @@
       "action": "Waits on the contributor's rebase requested 2026-10-21; approve fork CI after the push and choose the merge path."
     }
   ],
-  "promptVersion": "e2af505c8a5fd5ef2bc01ebbba8ad1b258bba171",
+  "promptVersion": "2a8774b44cf071d8066dac6f86d96094e88d7205",
   "approvals": [],
-  "frictions": [
-    {
-      "kind": "missing-rule",
-      "summary": "Fork CI runs on #95 and #96 show failure with zero jobs after the 30-day approval window expired; the skill does not say how to report an expired fork run.",
-      "link": "https://github.com/taxiway-sh/taxiway/pull/96"
-    },
-    {
-      "kind": "ambiguous-rule",
-      "summary": "The E2E merge rule needs scenarios run on the proposed code, but it does not say whether a contributor's own Docker run, as requested on #95, satisfies it.",
-      "link": "https://github.com/taxiway-sh/taxiway/pull/95"
-    },
-    {
-      "kind": "tool-refused",
-      "summary": "Attaching taxiway-sh/agents during setup and writing this heartbeat were each refused by the session's permission check until the maintainer approved them."
-    }
-  ]
+  "frictions": []
 }
