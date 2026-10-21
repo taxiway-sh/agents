@@ -14,7 +14,10 @@ jobs:
           python-version: "3.12"
       - name: Install validator
         run: pip install "jsonschema[format]==4.23.0"
-      - name: Fetch the heartbeat schema from Taxiway main
-        run: curl -fsSL -o /tmp/status.schema.json https://raw.githubusercontent.com/taxiway-sh/taxiway/main/.agents/agents/status.schema.json
-      - name: Validate heartbeats and deployed.json
-        run: python3 scripts/check-status.py . /tmp/status.schema.json
+      - name: Fetch the heartbeat and queue schemas from Taxiway main
+        run: |
+          base=https://raw.githubusercontent.com/taxiway-sh/taxiway/main/.agents/agents
+          curl -fsSL -o /tmp/status.schema.json "$base/status.schema.json"
+          curl -fsSL -o /tmp/queue.schema.json "$base/queue.schema.json"
+      - name: Validate heartbeats, queue items and deployed.json
+        run: python3 scripts/check-status.py . /tmp/status.schema.json /tmp/queue.schema.json
