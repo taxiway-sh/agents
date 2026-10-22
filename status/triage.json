@@ -1,32 +1,48 @@
 {
   "id": "triage",
-  "date": "2026-10-22T04:30:00Z",
+  "date": "2026-10-22T07:05:00Z",
   "result": "ok",
-  "summary": "36 issues opened or updated since the last run; 1 needs triage. Of 12 issues whose referencing PRs are all merged or closed, none can close yet: 2 status comments proposed.",
-  "waiting": [
+  "summary": "Maintainer approved triage-20261022-1 to -4: #256 labelled, status comments on #259 and #260, #296 decision recorded. Nothing else waits on the maintainer.",
+  "waiting": [],
+  "promptVersion": "98e14375b9930d82f00e3c7b5e252d89f436a2c7",
+  "approvals": [
     {
-      "link": "https://github.com/taxiway-sh/taxiway/issues/256",
-      "action": "triage-20261022-1: add priority:p2, remove needs-triage"
+      "class": "label-issue",
+      "proposal": "triage-20261022-1",
+      "answer": "ok",
+      "date": "2026-10-22T07:05:00Z",
+      "link": "https://github.com/taxiway-sh/taxiway/issues/256"
     },
     {
-      "link": "https://github.com/taxiway-sh/taxiway/issues/259",
-      "action": "triage-20261022-2: status comment: criterion 1 met by #265 and #274; removal criteria wait on upstream"
+      "class": "comment-issue",
+      "proposal": "triage-20261022-2",
+      "answer": "ok",
+      "date": "2026-10-22T07:05:00Z",
+      "link": "https://github.com/taxiway-sh/taxiway/issues/259#issuecomment-6340072993"
     },
     {
-      "link": "https://github.com/taxiway-sh/taxiway/issues/260",
-      "action": "triage-20261022-3: status comment: criteria 1-3 met by #283 (mitigation); criterion 4 waits on a Gas City release"
+      "class": "comment-issue",
+      "proposal": "triage-20261022-3",
+      "answer": "ok",
+      "date": "2026-10-22T07:05:00Z",
+      "link": "https://github.com/taxiway-sh/taxiway/issues/260#issuecomment-6340073301"
     },
     {
-      "link": "https://github.com/taxiway-sh/taxiway/issues/296",
-      "action": "Open question: does skipping the permission-based case as root (a listed direction) fit the skip-tests rule?"
+      "class": "comment-issue",
+      "proposal": "triage-20261022-4",
+      "answer": "ok",
+      "date": "2026-10-22T07:05:00Z",
+      "link": "https://github.com/taxiway-sh/taxiway/issues/296#issuecomment-6340073647"
     }
   ],
-  "promptVersion": "98e14375b9930d82f00e3c7b5e252d89f436a2c7",
-  "approvals": [],
   "frictions": [
     {
       "kind": "missing-rule",
       "summary": "The closure check does not say how to find an issue's referencing PRs; this run parsed Fixes/Closes/Refs/Part of from REST PR bodies."
+    },
+    {
+      "kind": "missing-rule",
+      "summary": "No rule says whether a maintainer answer relayed by the coordinator session counts as an OK in the agent's session; this run asked again."
     }
   ]
 }
