@@ -1,20 +1,40 @@
 {
   "id": "ci-watch",
-  "date": "2026-10-21T11:55:00Z",
+  "date": "2026-10-22T04:08:43Z",
   "result": "ok",
-  "summary": "install.yml macOS/lima failing 3 nights (Lima guest never finishes booting); e2e.yml skipped once by the #199 schedule change; model catalog red, owned by the catalog agent.",
+  "summary": "install.yml red only on Windows WSL2/lima: hosted runner lost communication during Install prerequisites; e2e.yml and model catalog green; macOS/lima green again (#99).",
   "waiting": [
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/39524790236",
-      "action": "ci-watch-20261021-1 (create-issue): open an issue for the macOS/lima Verify installation failure, Lima guest boot never completes, 3 nights."
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/39702773949",
+      "action": "ci-watch-20261022-1 (rerun-workflow): rerun the failed Windows WSL2 / lima job; the hosted runner was lost during Install prerequisites."
     }
   ],
-  "promptVersion": "e2af505c8a5fd5ef2bc01ebbba8ad1b258bba171",
-  "approvals": [],
+  "promptVersion": "98e14375b9930d82f00e3c7b5e252d89f436a2c7",
+  "approvals": [
+    {
+      "class": "create-issue",
+      "proposal": "ci-watch-20261021-1",
+      "answer": "refused",
+      "date": "2026-10-21T14:17:15Z",
+      "link": "https://github.com/taxiway-sh/taxiway/issues/99"
+    },
+    {
+      "class": "comment-issue",
+      "proposal": "ci-watch-20261021-2",
+      "answer": "ok",
+      "date": "2026-10-21T14:17:15Z",
+      "link": "https://github.com/taxiway-sh/taxiway/issues/99#issuecomment-6318323897"
+    }
+  ],
   "frictions": [
     {
-      "kind": "tool-refused",
-      "summary": "gh pr list uses GraphQL, which cloud sessions refuse; used the REST pulls endpoint instead."
+      "kind": "ambiguous-rule",
+      "summary": "No answer value fits a proposal the maintainer approved but the agent withdrew as a duplicate (-1, superseded by -2); recorded as refused.",
+      "link": "https://github.com/taxiway-sh/taxiway/issues/99"
+    },
+    {
+      "kind": "check-not-run",
+      "summary": "The lost-runner job log was unavailable (BlobNotFound); diagnosis rests on the job annotation and step timings."
     }
   ]
 }
