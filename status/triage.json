@@ -1,72 +1,32 @@
 {
   "id": "triage",
-  "date": "2026-10-21T12:30:00Z",
+  "date": "2026-10-22T04:30:00Z",
   "result": "ok",
-  "summary": "Maintainer approved triage-20261021-1 to -8: labels applied on 7 issues and the exclusion design decision recorded on #223. Nothing else waits on the maintainer.",
-  "waiting": [],
-  "promptVersion": "e2af505c8a5fd5ef2bc01ebbba8ad1b258bba171",
-  "approvals": [
+  "summary": "36 issues opened or updated since the last run; 1 needs triage. Of 12 issues whose referencing PRs are all merged or closed, none can close yet: 2 status comments proposed.",
+  "waiting": [
     {
-      "class": "label-issue",
-      "proposal": "triage-20261021-1",
-      "answer": "ok",
-      "date": "2026-10-21T12:00:00Z",
-      "link": "https://github.com/taxiway-sh/taxiway/issues/231"
+      "link": "https://github.com/taxiway-sh/taxiway/issues/256",
+      "action": "triage-20261022-1: add priority:p2, remove needs-triage"
     },
     {
-      "class": "label-issue",
-      "proposal": "triage-20261021-2",
-      "answer": "ok",
-      "date": "2026-10-21T12:00:00Z",
-      "link": "https://github.com/taxiway-sh/taxiway/issues/223"
+      "link": "https://github.com/taxiway-sh/taxiway/issues/259",
+      "action": "triage-20261022-2: status comment: criterion 1 met by #265 and #274; removal criteria wait on upstream"
     },
     {
-      "class": "label-issue",
-      "proposal": "triage-20261021-3",
-      "answer": "ok",
-      "date": "2026-10-21T12:00:00Z",
-      "link": "https://github.com/taxiway-sh/taxiway/issues/211"
+      "link": "https://github.com/taxiway-sh/taxiway/issues/260",
+      "action": "triage-20261022-3: status comment: criteria 1-3 met by #283 (mitigation); criterion 4 waits on a Gas City release"
     },
     {
-      "class": "label-issue",
-      "proposal": "triage-20261021-4",
-      "answer": "ok",
-      "date": "2026-10-21T12:00:00Z",
-      "link": "https://github.com/taxiway-sh/taxiway/issues/212"
-    },
-    {
-      "class": "label-issue",
-      "proposal": "triage-20261021-5",
-      "answer": "ok",
-      "date": "2026-10-21T12:00:00Z",
-      "link": "https://github.com/taxiway-sh/taxiway/issues/213"
-    },
-    {
-      "class": "label-issue",
-      "proposal": "triage-20261021-6",
-      "answer": "ok",
-      "date": "2026-10-21T12:00:00Z",
-      "link": "https://github.com/taxiway-sh/taxiway/issues/214"
-    },
-    {
-      "class": "label-issue",
-      "proposal": "triage-20261021-7",
-      "answer": "ok",
-      "date": "2026-10-21T12:00:00Z",
-      "link": "https://github.com/taxiway-sh/taxiway/issues/222"
-    },
-    {
-      "class": "comment-issue",
-      "proposal": "triage-20261021-8",
-      "answer": "ok",
-      "date": "2026-10-21T12:30:00Z",
-      "link": "https://github.com/taxiway-sh/taxiway/issues/223#issuecomment-6318807792"
+      "link": "https://github.com/taxiway-sh/taxiway/issues/296",
+      "action": "Open question: does skipping the permission-based case as root (a listed direction) fit the skip-tests rule?"
     }
   ],
+  "promptVersion": "98e14375b9930d82f00e3c7b5e252d89f436a2c7",
+  "approvals": [],
   "frictions": [
     {
-      "kind": "ambiguous-rule",
-      "summary": "Unclear whether ids shown in a dry-run report are real proposals; this run reissued the same ids for the same proposals."
+      "kind": "missing-rule",
+      "summary": "The closure check does not say how to find an issue's referencing PRs; this run parsed Fixes/Closes/Refs/Part of from REST PR bodies."
     }
   ]
 }
