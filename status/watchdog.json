@@ -1,65 +1,61 @@
 {
   "id": "watchdog",
-  "date": "2026-10-21T11:55:00Z",
+  "date": "2026-10-22T04:46:49Z",
   "result": "ok",
-  "summary": "Install test run: 5 cloud agents running their test runs, improvement lacks a scheduled task, machine offline, no scheduled e2e run in 24h; 14 items wait on the maintainer.",
+  "summary": "All seven cloud agents installed and on time; nightly workflows all started; machine still offline; 13 items wait on the maintainer, model-catalog PR #167 first.",
   "waiting": [
     {
-      "link": "https://github.com/taxiway-sh/taxiway/blob/main/.agents/agents/improvement.json",
-      "action": "Improvement agent has a session but no scheduled task and is not in deployed.json: finish its install with /taxiway-install-agents."
+      "link": "https://github.com/taxiway-sh/taxiway/pull/167",
+      "action": "model-catalog-20261022-1 (mark-pr-ready): answer before the 23:37 UTC updater run rewrites the branch."
     },
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/workflows/e2e.yml",
-      "action": "No scheduled e2e.yml run in the past 24h (last started 2026-10-20T08:14Z): check the schedule."
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/39702773949",
+      "action": "ci-watch-20261022-1 (rerun-workflow): rerun the failed Windows WSL2 / lima job lost during Install prerequisites."
+    },
+    {
+      "link": "https://github.com/taxiway-sh/taxiway/pull/96",
+      "action": "contributions-20261021-3: approve the COMMENT re-review draft and the pending fork CI run."
+    },
+    {
+      "link": "https://github.com/taxiway-sh/taxiway/pull/95",
+      "action": "contributions: waits on the contributor's rebase; approve fork CI after the push and choose the merge path."
+    },
+    {
+      "link": "https://github.com/taxiway-sh/taxiway/issues/171",
+      "action": "contributions: waits on the reporter; still needs-triage for labels and priority."
+    },
+    {
+      "link": "https://github.com/taxiway-sh/taxiway/issues/256",
+      "action": "triage-20261022-1: add priority:p2, remove needs-triage."
+    },
+    {
+      "link": "https://github.com/taxiway-sh/taxiway/issues/259",
+      "action": "triage-20261022-2: approve the status comment."
+    },
+    {
+      "link": "https://github.com/taxiway-sh/taxiway/issues/260",
+      "action": "triage-20261022-3: approve the status comment."
+    },
+    {
+      "link": "https://github.com/taxiway-sh/taxiway/issues/296",
+      "action": "triage: answer whether skipping the permission-based case as root fits the skip-tests rule."
+    },
+    {
+      "link": "https://github.com/taxiway-sh/taxiway/issues",
+      "action": "dependency-watch: approve or decline the drafted issue planning the Langfuse v4 upgrade (ClickHouse >= 25.12)."
+    },
+    {
+      "link": "https://github.com/taxiway-sh/taxiway/issues",
+      "action": "dependency-watch: approve or decline the drafted issue bumping LiteLLM 1.103.2 -> 1.107.0."
+    },
+    {
+      "link": "https://github.com/taxiway-sh/taxiway/issues/178",
+      "action": "dependency-watch: grant read access to the gastownhall and dolthub release channels."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/blob/main/.agents/agents/machine.json",
       "action": "Machine offline: no status/machine.json yet; 0 pending queue items. Follow Machine setup."
-    },
-    {
-      "link": "https://github.com/taxiway-sh/taxiway/pull/96",
-      "action": "External PR for #75, idle since 2026-09-11 with no CI run or review: approve fork CI and review, or ask for a rebase."
-    },
-    {
-      "link": "https://github.com/taxiway-sh/taxiway/pull/95",
-      "action": "External PR for #73: rebase and E2E assertions requested on 2026-10-21, awaiting contributor; decide on a deadline."
-    },
-    {
-      "link": "https://github.com/taxiway-sh/taxiway/issues/171",
-      "action": "External feature request, 5 days without a reply: triage, set priority and area, and answer the reporter."
-    },
-    {
-      "link": "https://github.com/taxiway-sh/taxiway/issues/223",
-      "action": "Triage: set priority, add agent:claude-code; pick proactive vs wait-for-flake direction."
-    },
-    {
-      "link": "https://github.com/taxiway-sh/taxiway/issues/215",
-      "action": "Triage: add a type label and priority; PR #216 already covers it."
-    },
-    {
-      "link": "https://github.com/taxiway-sh/taxiway/issues/214",
-      "action": "Triage: set priority and remove needs-triage."
-    },
-    {
-      "link": "https://github.com/taxiway-sh/taxiway/issues/213",
-      "action": "Triage: set priority and remove needs-triage."
-    },
-    {
-      "link": "https://github.com/taxiway-sh/taxiway/issues/212",
-      "action": "Triage: set priority and remove needs-triage."
-    },
-    {
-      "link": "https://github.com/taxiway-sh/taxiway/issues/211",
-      "action": "Triage: set priority and remove needs-triage."
-    },
-    {
-      "link": "https://github.com/taxiway-sh/taxiway/issues/222",
-      "action": "Triage: set priority and remove needs-triage."
-    },
-    {
-      "link": "https://github.com/taxiway-sh/taxiway/pull/167",
-      "action": "Model catalog bot PR, draft since 2026-10-14 with no checks; blocked by #169: fix #169 or close and regenerate."
     }
   ],
-  "promptVersion": "e2af505c8a5fd5ef2bc01ebbba8ad1b258bba171"
+  "promptVersion": "98e14375b9930d82f00e3c7b5e252d89f436a2c7"
 }
