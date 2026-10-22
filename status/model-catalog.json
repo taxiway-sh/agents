@@ -1,23 +1,13 @@
 {
   "id": "model-catalog",
-  "date": "2026-10-21T12:10:00Z",
-  "result": "partial",
-  "summary": "Updater failing daily since 2026-10-15 (reworded ChatGPT retirement notice); tracked in #255. Draft PR #167 left as is per maintainer; claude-haiku-5-5 absent from pinned LiteLLM 1.103.2.",
-  "waiting": [],
-  "promptVersion": "e2af505c8a5fd5ef2bc01ebbba8ad1b258bba171",
-  "frictions": [
+  "date": "2026-10-22T03:51:16Z",
+  "result": "ok",
+  "summary": "Updater green again after #263/#264; PR #167 regenerated at 586b059 with all six checks passing (haiku-5-5 added, gpt-5.5 retired). Ready proposed; haiku-5-5 has no metadata in pinned LiteLLM 1.103.2.",
+  "waiting": [
     {
-      "kind": "tool-refused",
-      "summary": "gh pr list refused (GraphQL unavailable in cloud sessions); used the REST pulls endpoint instead."
+      "link": "https://github.com/taxiway-sh/taxiway/pull/167",
+      "action": "mark-pr-ready (model-catalog-20261022-1): all checks pass on 586b059; answer before the next updater run (23:37 UTC) rewrites the branch."
     }
   ],
-  "approvals": [
-    {
-      "class": "create-issue",
-      "proposal": "https://github.com/taxiway-sh/taxiway/actions/runs/39530273293",
-      "answer": "ok",
-      "date": "2026-10-21T12:05:00Z",
-      "link": "https://github.com/taxiway-sh/taxiway/issues/255"
-    }
-  ]
+  "promptVersion": "98e14375b9930d82f00e3c7b5e252d89f436a2c7"
 }
