@@ -1,48 +1,10 @@
 {
   "id": "triage",
-  "date": "2026-10-22T07:05:00Z",
+  "date": "2026-10-23T04:25:00Z",
   "result": "ok",
-  "summary": "Maintainer approved triage-20261022-1 to -4: #256 labelled, status comments on #259 and #260, #296 decision recorded. Nothing else waits on the maintainer.",
+  "summary": "Quiet backlog: #300 is new and already triaged, model catalog PR #167 merged, no issue meets the closure check. Nothing waits on the maintainer.",
   "waiting": [],
-  "promptVersion": "98e14375b9930d82f00e3c7b5e252d89f436a2c7",
-  "approvals": [
-    {
-      "class": "label-issue",
-      "proposal": "triage-20261022-1",
-      "answer": "ok",
-      "date": "2026-10-22T07:05:00Z",
-      "link": "https://github.com/taxiway-sh/taxiway/issues/256"
-    },
-    {
-      "class": "comment-issue",
-      "proposal": "triage-20261022-2",
-      "answer": "ok",
-      "date": "2026-10-22T07:05:00Z",
-      "link": "https://github.com/taxiway-sh/taxiway/issues/259#issuecomment-6340072993"
-    },
-    {
-      "class": "comment-issue",
-      "proposal": "triage-20261022-3",
-      "answer": "ok",
-      "date": "2026-10-22T07:05:00Z",
-      "link": "https://github.com/taxiway-sh/taxiway/issues/260#issuecomment-6340073301"
-    },
-    {
-      "class": "comment-issue",
-      "proposal": "triage-20261022-4",
-      "answer": "ok",
-      "date": "2026-10-22T07:05:00Z",
-      "link": "https://github.com/taxiway-sh/taxiway/issues/296#issuecomment-6340073647"
-    }
-  ],
-  "frictions": [
-    {
-      "kind": "missing-rule",
-      "summary": "The closure check does not say how to find an issue's referencing PRs; this run parsed Fixes/Closes/Refs/Part of from REST PR bodies."
-    },
-    {
-      "kind": "missing-rule",
-      "summary": "No rule says whether a maintainer answer relayed by the coordinator session counts as an OK in the agent's session; this run asked again."
-    }
-  ]
+  "promptVersion": "5efd8d08361d36de1a8b56b9b9b03fc383f6765b",
+  "approvals": [],
+  "frictions": []
 }
