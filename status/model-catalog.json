@@ -1,13 +1,17 @@
 {
   "id": "model-catalog",
-  "date": "2026-10-22T03:51:16Z",
+  "date": "2026-10-23T03:51:27Z",
   "result": "ok",
-  "summary": "Updater green again after #263/#264; PR #167 regenerated at 586b059 with all six checks passing (haiku-5-5 added, gpt-5.5 retired). Ready proposed; haiku-5-5 has no metadata in pinned LiteLLM 1.103.2.",
-  "waiting": [
+  "summary": "PR #167 merged on 2026-10-22 (claude-haiku-5-5 added, gpt-5.5 retired); the 2026-10-23 updater run passed all checks and found no catalog change, so no review PR is open.",
+  "waiting": [],
+  "promptVersion": "5efd8d08361d36de1a8b56b9b9b03fc383f6765b",
+  "approvals": [
     {
-      "link": "https://github.com/taxiway-sh/taxiway/pull/167",
-      "action": "mark-pr-ready (model-catalog-20261022-1): all checks pass on 586b059; answer before the next updater run (23:37 UTC) rewrites the branch."
+      "class": "mark-pr-ready",
+      "proposal": "model-catalog-20261022-1",
+      "answer": "ok",
+      "date": "2026-10-22T07:10:00Z",
+      "link": "https://github.com/taxiway-sh/taxiway/pull/167"
     }
-  ],
-  "promptVersion": "98e14375b9930d82f00e3c7b5e252d89f436a2c7"
+  ]
 }
