@@ -1,23 +1,42 @@
 {
   "id": "contributions",
-  "date": "2026-10-22T16:21:28Z",
+  "date": "2026-10-23T07:22:07Z",
   "result": "ok",
-  "summary": "No new external activity since the last run; the #96 CI-wait note and the #95 COMMENT re-review still await approval, and #171 waits on its reporter.",
+  "summary": "#96 was told its CI waits on #243; a revised #95 COMMENT re-review, also saying CI waits on #243, awaits approval. #171 waits on its reporter.",
   "waiting": [
     {
-      "link": "https://github.com/taxiway-sh/taxiway/pull/96",
-      "action": "contributions-20261022-1: approve the note telling the contributor that CI approval waits on #243; nothing else is asked of them."
+      "link": "https://github.com/taxiway-sh/taxiway/pull/95",
+      "action": "contributions-20261023-1: approve the COMMENT re-review saying CI waits on #243 (replaces contributions-20261022-2)."
     },
     {
-      "link": "https://github.com/taxiway-sh/taxiway/pull/95",
-      "action": "contributions-20261022-2: approve the COMMENT re-review; read the diff, then approve fork CI; carry on a Taxiway branch for lifecycle E2E."
+      "link": "https://github.com/taxiway-sh/taxiway/pull/96",
+      "action": "Waits on #243 before fork CI approval; then carry on a Taxiway branch for lifecycle E2E. Nothing is asked of the contributor."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/171",
       "action": "Waits on the reporter's answer to the 2026-10-21 question; still needs-triage for labels and priority."
     }
   ],
-  "promptVersion": "30d49f9bcc609c0c58ce51ab21b6740deabf7b19",
-  "approvals": [],
-  "frictions": []
+  "promptVersion": "5efd8d08361d36de1a8b56b9b9b03fc383f6765b",
+  "approvals": [
+    {
+      "class": "comment-issue",
+      "proposal": "contributions-20261022-1",
+      "answer": "ok",
+      "date": "2026-10-22T22:38:05Z",
+      "link": "https://github.com/taxiway-sh/taxiway/pull/96#issuecomment-6354764713"
+    }
+  ],
+  "frictions": [
+    {
+      "kind": "tool-refused",
+      "summary": "Posting the approved #96 comment was refused by the auto-mode check after a relayed answer and after a bare OK; it passed only with an explicit approval naming the action and id.",
+      "link": "https://github.com/taxiway-sh/taxiway/pull/96"
+    },
+    {
+      "kind": "check-not-run",
+      "summary": "The first #96 post was refused by GitHub's secondary rate limit for content creation; the retry was cancelled at the coordinator's request.",
+      "link": "https://github.com/taxiway-sh/taxiway/pull/96"
+    }
+  ]
 }
