@@ -1,44 +1,20 @@
 {
   "id": "watchdog",
-  "date": "2026-10-22T04:46:49Z",
+  "date": "2026-10-23T04:46:41Z",
   "result": "ok",
-  "summary": "All seven cloud agents installed and on time; nightly workflows all started; machine still offline; 13 items wait on the maintainer, model-catalog PR #167 first.",
+  "summary": "All seven cloud agents on time and nightly workflows all started; no demotion incidents; machine still offline; 8 items wait on the maintainer.",
   "waiting": [
     {
-      "link": "https://github.com/taxiway-sh/taxiway/pull/167",
-      "action": "model-catalog-20261022-1 (mark-pr-ready): answer before the 23:37 UTC updater run rewrites the branch."
-    },
-    {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/39702773949",
-      "action": "ci-watch-20261022-1 (rerun-workflow): rerun the failed Windows WSL2 / lima job lost during Install prerequisites."
+      "link": "https://github.com/taxiway-sh/taxiway/pull/95",
+      "action": "contributions-20261022-2: approve the COMMENT re-review; read the diff, then approve fork CI."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/pull/96",
-      "action": "contributions-20261021-3: approve the COMMENT re-review draft and the pending fork CI run."
+      "action": "contributions-20261022-1: approve the note telling the contributor that CI approval waits on #243."
     },
     {
-      "link": "https://github.com/taxiway-sh/taxiway/pull/95",
-      "action": "contributions: waits on the contributor's rebase; approve fork CI after the push and choose the merge path."
-    },
-    {
-      "link": "https://github.com/taxiway-sh/taxiway/issues/171",
-      "action": "contributions: waits on the reporter; still needs-triage for labels and priority."
-    },
-    {
-      "link": "https://github.com/taxiway-sh/taxiway/issues/256",
-      "action": "triage-20261022-1: add priority:p2, remove needs-triage."
-    },
-    {
-      "link": "https://github.com/taxiway-sh/taxiway/issues/259",
-      "action": "triage-20261022-2: approve the status comment."
-    },
-    {
-      "link": "https://github.com/taxiway-sh/taxiway/issues/260",
-      "action": "triage-20261022-3: approve the status comment."
-    },
-    {
-      "link": "https://github.com/taxiway-sh/taxiway/issues/296",
-      "action": "triage: answer whether skipping the permission-based case as root fits the skip-tests rule."
+      "link": "https://github.com/taxiway-sh/taxiway/issues/231",
+      "action": "ci-watch-20261023-1 (comment-issue): add the scheduled main e2e recurrence (run 39879688952) to #231."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues",
@@ -53,9 +29,13 @@
       "action": "dependency-watch: grant read access to the gastownhall and dolthub release channels."
     },
     {
+      "link": "https://github.com/taxiway-sh/taxiway/issues/171",
+      "action": "contributions: waits on the reporter; still needs-triage for labels and priority."
+    },
+    {
       "link": "https://github.com/taxiway-sh/taxiway/blob/main/.agents/agents/machine.json",
       "action": "Machine offline: no status/machine.json yet; 0 pending queue items. Follow Machine setup."
     }
   ],
-  "promptVersion": "98e14375b9930d82f00e3c7b5e252d89f436a2c7"
+  "promptVersion": "5efd8d08361d36de1a8b56b9b9b03fc383f6765b"
 }
