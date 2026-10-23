@@ -1,8 +1,8 @@
 {
   "id": "ci-watch",
-  "date": "2026-10-23T04:06:49Z",
+  "date": "2026-10-23T07:06:03Z",
   "result": "ok",
-  "summary": "e2e.yml red on e2e (codex): rm-preview fixture finds no tmux session after reset, known flake #231, first time on a scheduled main run; install.yml (WSL2 rerun included) and model catalog green.",
+  "summary": "Catch-up: no nightly run was pending; e2e (codex) failure on #231 still waits on the maintainer.",
   "waiting": [
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/231",
