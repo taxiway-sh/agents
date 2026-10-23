@@ -1,24 +1,13 @@
 {
   "id": "ci-watch",
-  "date": "2026-10-22T07:07:57Z",
+  "date": "2026-10-23T04:06:49Z",
   "result": "ok",
-  "summary": "Catch-up: no run was pending; the approved rerun of install.yml Windows WSL2/lima (run 39702773949, attempt 2) is still in progress.",
-  "waiting": [],
-  "promptVersion": "98e14375b9930d82f00e3c7b5e252d89f436a2c7",
-  "approvals": [
+  "summary": "e2e.yml red on e2e (codex): rm-preview fixture finds no tmux session after reset, known flake #231, first time on a scheduled main run; install.yml (WSL2 rerun included) and model catalog green.",
+  "waiting": [
     {
-      "class": "rerun-workflow",
-      "proposal": "ci-watch-20261022-1",
-      "answer": "ok",
-      "date": "2026-10-22T06:56:41Z",
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/39702773949/attempts/2"
+      "link": "https://github.com/taxiway-sh/taxiway/issues/231",
+      "action": "ci-watch-20261023-1 (comment-issue): add the scheduled main recurrence (run 39879688952) to #231."
     }
   ],
-  "frictions": [
-    {
-      "kind": "ambiguous-rule",
-      "summary": "The maintainer answered an ask proposal in the coordinator session, which took the action itself; the run contract only covers answers given in the agent's session.",
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/39702773949"
-    }
-  ]
+  "promptVersion": "5efd8d08361d36de1a8b56b9b9b03fc383f6765b"
 }
