@@ -1,17 +1,8 @@
 {
   "id": "model-catalog",
-  "date": "2026-10-23T03:51:27Z",
+  "date": "2026-10-24T03:51:02Z",
   "result": "ok",
-  "summary": "PR #167 merged on 2026-10-22 (claude-haiku-5-5 added, gpt-5.5 retired); the 2026-10-23 updater run passed all checks and found no catalog change, so no review PR is open.",
+  "summary": "Nothing changed since the previous run: the 2026-10-24 updater run passed all checks and found no catalog change, so no review PR is open.",
   "waiting": [],
-  "promptVersion": "5efd8d08361d36de1a8b56b9b9b03fc383f6765b",
-  "approvals": [
-    {
-      "class": "mark-pr-ready",
-      "proposal": "model-catalog-20261022-1",
-      "answer": "ok",
-      "date": "2026-10-22T07:10:00Z",
-      "link": "https://github.com/taxiway-sh/taxiway/pull/167"
-    }
-  ]
+  "promptVersion": "5efd8d08361d36de1a8b56b9b9b03fc383f6765b"
 }
