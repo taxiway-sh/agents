@@ -1,16 +1,16 @@
 {
   "id": "watchdog",
-  "date": "2026-10-23T04:46:41Z",
+  "date": "2026-10-24T04:46:38Z",
   "result": "ok",
   "summary": "All seven cloud agents on time and nightly workflows all started; no demotion incidents; machine still offline; 8 items wait on the maintainer.",
   "waiting": [
     {
       "link": "https://github.com/taxiway-sh/taxiway/pull/95",
-      "action": "contributions-20261022-2: approve the COMMENT re-review; read the diff, then approve fork CI."
+      "action": "contributions-20261023-1: approve the COMMENT re-review saying CI waits on #243 (replaces contributions-20261022-2)."
     },
     {
-      "link": "https://github.com/taxiway-sh/taxiway/pull/96",
-      "action": "contributions-20261022-1: approve the note telling the contributor that CI approval waits on #243."
+      "link": "https://github.com/taxiway-sh/taxiway/issues/99",
+      "action": "ci-watch-20261024-1 (comment-issue): add the macOS / docker Colima boot stall (run 40048538918) to #99."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/231",
