@@ -1,9 +1,13 @@
 {
   "id": "ci-watch",
-  "date": "2026-10-23T07:06:03Z",
+  "date": "2026-10-24T04:06:10Z",
   "result": "ok",
-  "summary": "Catch-up: no nightly run was pending; e2e (codex) failure on #231 still waits on the maintainer.",
+  "summary": "install.yml red on macOS/docker: Colima's Lima guest never finished booting and DNS timed out pulling ubuntu:24.04, same signature as #99, on a commit green the day before; e2e and model catalog green.",
   "waiting": [
+    {
+      "link": "https://github.com/taxiway-sh/taxiway/issues/99",
+      "action": "ci-watch-20261024-1 (comment-issue): add to #99 that the host Colima VM shows the same boot stall (run 40048538918, macOS / docker)."
+    },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/231",
       "action": "ci-watch-20261023-1 (comment-issue): add the scheduled main recurrence (run 39879688952) to #231."
