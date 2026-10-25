@@ -1,17 +1,19 @@
 {
   "id": "ci-watch",
-  "date": "2026-10-24T04:06:10Z",
+  "date": "2026-10-25T04:06:08Z",
   "result": "ok",
-  "summary": "install.yml red on macOS/docker: Colima's Lima guest never finished booting and DNS timed out pulling ubuntu:24.04, same signature as #99, on a commit green the day before; e2e and model catalog green.",
+  "summary": "All three nightly workflows green on main; #231 closed as completed, so its pending comment proposal is dropped.",
   "waiting": [
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/99",
       "action": "ci-watch-20261024-1 (comment-issue): add to #99 that the host Colima VM shows the same boot stall (run 40048538918, macOS / docker)."
-    },
-    {
-      "link": "https://github.com/taxiway-sh/taxiway/issues/231",
-      "action": "ci-watch-20261023-1 (comment-issue): add the scheduled main recurrence (run 39879688952) to #231."
     }
   ],
-  "promptVersion": "5efd8d08361d36de1a8b56b9b9b03fc383f6765b"
+  "promptVersion": "b84fc74ceb53afbd14cb67bcaec7e22a37892757",
+  "frictions": [
+    {
+      "kind": "check-not-run",
+      "summary": "The 2026-10-24 07:00 catch-up reached the session only with the next day's run, about 21 hours late; it was folded into this full check."
+    }
+  ]
 }
