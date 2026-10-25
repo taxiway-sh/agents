@@ -1,20 +1,20 @@
 {
   "id": "watchdog",
-  "date": "2026-10-24T04:46:38Z",
+  "date": "2026-10-25T04:46:52Z",
   "result": "ok",
-  "summary": "All seven cloud agents on time and nightly workflows all started; no demotion incidents; machine still offline; 8 items wait on the maintainer.",
+  "summary": "All seven cloud agents on time; nightly workflows all started and green; no demotion incidents; machine still offline; 8 items wait on the maintainer.",
   "waiting": [
     {
       "link": "https://github.com/taxiway-sh/taxiway/pull/95",
-      "action": "contributions-20261023-1: approve the COMMENT re-review saying CI waits on #243 (replaces contributions-20261022-2)."
+      "action": "contributions-20261023-1: approve the COMMENT re-review saying CI waits on #243."
+    },
+    {
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/40150988198",
+      "action": "model-catalog-20261025-1 (create-issue): the updater reports models already in the catalog as skipped, waiting on a LiteLLM release."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/99",
       "action": "ci-watch-20261024-1 (comment-issue): add the macOS / docker Colima boot stall (run 40048538918) to #99."
-    },
-    {
-      "link": "https://github.com/taxiway-sh/taxiway/issues/231",
-      "action": "ci-watch-20261023-1 (comment-issue): add the scheduled main e2e recurrence (run 39879688952) to #231."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues",
@@ -37,5 +37,5 @@
       "action": "Machine offline: no status/machine.json yet; 0 pending queue items. Follow Machine setup."
     }
   ],
-  "promptVersion": "5efd8d08361d36de1a8b56b9b9b03fc383f6765b"
+  "promptVersion": "b84fc74ceb53afbd14cb67bcaec7e22a37892757"
 }
