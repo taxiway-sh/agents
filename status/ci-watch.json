@@ -1,19 +1,13 @@
 {
   "id": "ci-watch",
-  "date": "2026-10-25T04:06:08Z",
+  "date": "2026-10-25T07:05:45Z",
   "result": "ok",
-  "summary": "All three nightly workflows green on main; #231 closed as completed, so its pending comment proposal is dropped.",
+  "summary": "Catch-up: no nightly run was pending; all three nightly workflows stay green.",
   "waiting": [
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/99",
       "action": "ci-watch-20261024-1 (comment-issue): add to #99 that the host Colima VM shows the same boot stall (run 40048538918, macOS / docker)."
     }
   ],
-  "promptVersion": "b84fc74ceb53afbd14cb67bcaec7e22a37892757",
-  "frictions": [
-    {
-      "kind": "check-not-run",
-      "summary": "The 2026-10-24 07:00 catch-up reached the session only with the next day's run, about 21 hours late; it was folded into this full check."
-    }
-  ]
+  "promptVersion": "b84fc74ceb53afbd14cb67bcaec7e22a37892757"
 }
