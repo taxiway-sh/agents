@@ -1,9 +1,21 @@
 {
   "id": "watchdog",
-  "date": "2026-10-25T04:46:52Z",
+  "date": "2026-10-26T04:46:27Z",
   "result": "ok",
-  "summary": "All seven cloud agents on time; nightly workflows all started and green; no demotion incidents; machine still offline; 8 items wait on the maintainer.",
+  "summary": "All seven cloud agents on time; nightly workflows all started and green; no demotion incidents; machine still offline; 11 items wait on the maintainer.",
   "waiting": [
+    {
+      "link": "https://github.com/taxiway-sh/taxiway/issues/315",
+      "action": "triage-20261026-1: add priority:p1, remove needs-triage."
+    },
+    {
+      "link": "https://github.com/taxiway-sh/taxiway/pull/316",
+      "action": "triage-20261026-2: add documentation and capability:contributing."
+    },
+    {
+      "link": "https://github.com/taxiway-sh/taxiway/issues",
+      "action": "dependency-watch-20261026-1 (create-issue): bump the Gas City default from 1.5.0 to 1.5.1 (security fixes)."
+    },
     {
       "link": "https://github.com/taxiway-sh/taxiway/pull/95",
       "action": "contributions-20261023-1: approve the COMMENT re-review saying CI waits on #243."
@@ -17,16 +29,16 @@
       "action": "ci-watch-20261024-1 (comment-issue): add the macOS / docker Colima boot stall (run 40048538918) to #99."
     },
     {
-      "link": "https://github.com/taxiway-sh/taxiway/issues",
-      "action": "dependency-watch: approve or decline the drafted issue planning the Langfuse v4 upgrade (ClickHouse >= 25.12)."
+      "link": "https://github.com/taxiway-sh/taxiway/pull/297",
+      "action": "improvement-20261026-1 (create-issue): state the Markdown wrap width and flag overlong prose lines."
     },
     {
-      "link": "https://github.com/taxiway-sh/taxiway/issues",
-      "action": "dependency-watch: approve or decline the drafted issue bumping LiteLLM 1.103.2 -> 1.107.0."
+      "link": "https://github.com/taxiway-sh/taxiway/pull/265",
+      "action": "improvement-20261026-2 (create-issue): review rule checking a command claim against every CLI path."
     },
     {
-      "link": "https://github.com/taxiway-sh/taxiway/issues/178",
-      "action": "dependency-watch: grant read access to the gastownhall and dolthub release channels."
+      "link": "https://github.com/taxiway-sh/taxiway/pull/96",
+      "action": "improvement-20261026-3 (create-issue): two run-contract rules (gh api REST reads; in-session OK names the proposal id)."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/171",
