@@ -1,10 +1,19 @@
 {
   "id": "triage",
-  "date": "2026-10-23T04:25:00Z",
+  "date": "2026-10-26T04:35:00Z",
   "result": "ok",
-  "summary": "Quiet backlog: #300 is new and already triaged, model catalog PR #167 merged, no issue meets the closure check. Nothing waits on the maintainer.",
-  "waiting": [],
-  "promptVersion": "5efd8d08361d36de1a8b56b9b9b03fc383f6765b",
+  "summary": "#223 and #231 closed by #314; #315 is new and needs a priority; #316 has no labels. 10 open fix PRs cover p1/p2 issues.",
+  "waiting": [
+    {
+      "link": "https://github.com/taxiway-sh/taxiway/issues/315",
+      "action": "triage-20261026-1: add priority:p1, remove needs-triage"
+    },
+    {
+      "link": "https://github.com/taxiway-sh/taxiway/pull/316",
+      "action": "triage-20261026-2: add documentation and capability:contributing"
+    }
+  ],
+  "promptVersion": "b84fc74ceb53afbd14cb67bcaec7e22a37892757",
   "approvals": [],
   "frictions": []
 }
