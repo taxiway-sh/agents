@@ -1,22 +1,13 @@
 {
   "id": "model-catalog",
-  "date": "2026-10-25T03:51:55Z",
+  "date": "2026-10-26T03:51:00Z",
   "result": "ok",
-  "summary": "2026-10-25 updater run green, no catalog change, no review PR. New pinned-metadata gate (#302) lists six models already in the catalog as skipped, since pinned LiteLLM 1.103.2 lacks them; gateway bump PR #303 is open.",
+  "summary": "Nothing changed since the previous run: updater green with no catalog change and no review PR; gateway still on LiteLLM 1.103.2 while bump PR #303 stays draft.",
   "waiting": [
     {
       "link": "https://github.com/taxiway-sh/taxiway/actions/runs/40150988198",
       "action": "create-issue (model-catalog-20261025-1): the updater reports models already in the catalog as 'Skipped … waiting on a LiteLLM release'."
     }
   ],
-  "promptVersion": "b84fc74ceb53afbd14cb67bcaec7e22a37892757",
-  "approvals": [
-    {
-      "class": "create-issue",
-      "proposal": "https://github.com/taxiway-sh/taxiway/issues/301",
-      "answer": "ok",
-      "date": "2026-10-24T06:30:00Z",
-      "link": "https://github.com/taxiway-sh/taxiway/issues/301"
-    }
-  ]
+  "promptVersion": "b84fc74ceb53afbd14cb67bcaec7e22a37892757"
 }
