@@ -1,8 +1,8 @@
 {
   "id": "ci-watch",
-  "date": "2026-10-26T04:05:56Z",
+  "date": "2026-10-26T07:15:51Z",
   "result": "ok",
-  "summary": "All three nightly workflows green on main for the second night running.",
+  "summary": "Catch-up: no nightly run was pending; all three nightly workflows stay green.",
   "waiting": [
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/99",
