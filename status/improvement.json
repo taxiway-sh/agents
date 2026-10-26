@@ -1,18 +1,27 @@
 {
   "id": "improvement",
-  "date": "2026-10-21T13:41:35Z",
+  "date": "2026-10-26T03:54:41Z",
   "result": "ok",
-  "summary": "Week 2026-10-12..19: no proposals; no heartbeats or merged PRs in the week, and the recurring Codex E2E and macOS/Lima install failures are tracked by #99, #219 and #231.",
-  "waiting": [],
-  "promptVersion": "2a8774b44cf071d8066dac6f86d96094e88d7205",
-  "frictions": [
+  "summary": "Week 2026-10-19..26: 64 PRs merged, 22 agent answers (21 ok), CI on main never red; three issue proposals wait on the maintainer, led by a Markdown wrap check for nits seen in 9 PRs.",
+  "waiting": [
     {
-      "kind": "tool-refused",
-      "summary": "Attaching taxiway-sh/agents with add_repo was denied by the auto mode classifier at setup until the maintainer approved a retry."
+      "link": "https://github.com/taxiway-sh/taxiway/pull/297",
+      "action": "improvement-20261026-1 (create-issue): propose an issue to state the Markdown wrap width and have check-agent-docs flag overlong prose lines (wrap nits in 9 PRs)."
     },
     {
-      "kind": "tool-refused",
-      "summary": "The first heartbeat push was refused by the session's permission check until the maintainer approved a retry."
+      "link": "https://github.com/taxiway-sh/taxiway/pull/265",
+      "action": "improvement-20261026-2 (create-issue): propose an issue for a taxiway-review checklist rule that a claim about a command is checked against every CLI path reaching that phase (#265 took 8 rounds)."
+    },
+    {
+      "link": "https://github.com/taxiway-sh/taxiway/pull/96",
+      "action": "improvement-20261026-3 (create-issue): propose an issue to add two run-contract rules flagged by heartbeats: GitHub reads use gh api REST, and an in-session OK names the proposal id and action."
+    }
+  ],
+  "promptVersion": "b84fc74ceb53afbd14cb67bcaec7e22a37892757",
+  "frictions": [
+    {
+      "kind": "ambiguous-rule",
+      "summary": "The prompt bars draft PRs on skills this agent uses, and its declaration lists nearly every skill, so every rule fix became an issue proposal instead of a draft PR."
     },
     {
       "kind": "check-not-run",
@@ -21,7 +30,7 @@
     },
     {
       "kind": "check-not-run",
-      "summary": "Review rounds per PR could not be counted: no PR merged in the five weeks carries an Independent review line."
+      "summary": "Review rounds were unknown for 27 of the week's 65 merged PRs, which predate the Independent review line."
     }
   ]
 }
