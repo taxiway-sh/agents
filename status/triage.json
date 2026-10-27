@@ -1,8 +1,8 @@
 {
   "id": "triage",
-  "date": "2026-10-26T04:35:00Z",
+  "date": "2026-10-27T04:20:00Z",
   "result": "ok",
-  "summary": "#223 and #231 closed by #314; #315 is new and needs a priority; #316 has no labels. 10 open fix PRs cover p1/p2 issues.",
+  "summary": "No backlog change since the 2026-10-26 run; triage-20261026-1 and -2 still await the maintainer.",
   "waiting": [
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/315",
