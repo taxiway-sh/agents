@@ -1,8 +1,8 @@
 {
   "id": "ci-watch",
-  "date": "2026-10-27T04:07:10Z",
+  "date": "2026-10-27T07:08:54Z",
   "result": "ok",
-  "summary": "model-catalog-update.yml red: the ChatGPT models page now ends the GPT-5.5 notice with a changed ContentModeSwitch tag, which the pinned guidance rejects; e2e and install green.",
+  "summary": "Catch-up: no nightly run was pending; the model catalog failure still has no issue and waits on the maintainer.",
   "waiting": [
     {
       "link": "https://github.com/taxiway-sh/taxiway/actions/runs/40438046958",
