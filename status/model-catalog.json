@@ -1,9 +1,13 @@
 {
   "id": "model-catalog",
-  "date": "2026-10-26T03:51:00Z",
-  "result": "ok",
-  "summary": "Nothing changed since the previous run: updater green with no catalog change and no review PR; gateway still on LiteLLM 1.103.2 while bump PR #303 stays draft.",
+  "date": "2026-10-27T03:51:26Z",
+  "result": "partial",
+  "summary": "2026-10-27 updater run failed at preparation: ChatGPT page moved the GPT-5.5 notice, so its trailing layout tag no longer matches the hard-coded guidance in internal/modelupdate/sources.go. No review PR; #303 still draft.",
   "waiting": [
+    {
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/40438046958",
+      "action": "create-issue (model-catalog-20261027-1): GPT-5.5 guidance match includes a page layout tag; the updater fails on every run until fixed."
+    },
     {
       "link": "https://github.com/taxiway-sh/taxiway/actions/runs/40150988198",
       "action": "create-issue (model-catalog-20261025-1): the updater reports models already in the catalog as 'Skipped … waiting on a LiteLLM release'."
