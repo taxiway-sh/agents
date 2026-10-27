@@ -1,9 +1,13 @@
 {
   "id": "ci-watch",
-  "date": "2026-10-26T07:15:51Z",
+  "date": "2026-10-27T04:07:10Z",
   "result": "ok",
-  "summary": "Catch-up: no nightly run was pending; all three nightly workflows stay green.",
+  "summary": "model-catalog-update.yml red: the ChatGPT models page now ends the GPT-5.5 notice with a changed ContentModeSwitch tag, which the pinned guidance rejects; e2e and install green.",
   "waiting": [
+    {
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/40438046958",
+      "action": "ci-watch-20261027-1 (create-issue): open an issue linking #255: the GPT-5.5 guidance pin breaks on a changed ContentModeSwitch tag."
+    },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/99",
       "action": "ci-watch-20261024-1 (comment-issue): add to #99 that the host Colima VM shows the same boot stall (run 40048538918, macOS / docker)."
