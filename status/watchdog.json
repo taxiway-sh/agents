@@ -1,9 +1,17 @@
 {
   "id": "watchdog",
-  "date": "2026-10-26T04:46:27Z",
+  "date": "2026-10-27T04:46:08Z",
   "result": "ok",
-  "summary": "All seven cloud agents on time; nightly workflows all started and green; no demotion incidents; machine still offline; 11 items wait on the maintainer.",
+  "summary": "All seven cloud agents on time and nightly workflows all started; model catalog updater red on a changed ChatGPT page tag; machine still offline; 13 items wait on the maintainer.",
   "waiting": [
+    {
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/40438046958",
+      "action": "model-catalog-20261027-1 (create-issue): GPT-5.5 guidance match includes a page layout tag; the updater fails every run until fixed."
+    },
+    {
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/40438046958",
+      "action": "ci-watch-20261027-1 (create-issue): same failure, issue linking #255; answer together with model-catalog-20261027-1."
+    },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/315",
       "action": "triage-20261026-1: add priority:p1, remove needs-triage."
