@@ -1,8 +1,8 @@
 {
   "id": "ci-watch",
-  "date": "2026-10-28T04:06:17Z",
+  "date": "2026-10-28T07:06:43Z",
   "result": "ok",
-  "summary": "install.yml red: Docker Hub 502 on WSL2/docker and the #99 Lima boot stall on macOS/lima; model catalog red for the 2nd night on the ContentModeSwitch change; e2e green.",
+  "summary": "Catch-up: no nightly run was pending; the install and model catalog failures still wait on the maintainer.",
   "waiting": [
     {
       "link": "https://github.com/taxiway-sh/taxiway/actions/runs/40438046958",
