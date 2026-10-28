@@ -1,16 +1,20 @@
 {
   "id": "ci-watch",
-  "date": "2026-10-27T07:08:54Z",
+  "date": "2026-10-28T04:06:17Z",
   "result": "ok",
-  "summary": "Catch-up: no nightly run was pending; the model catalog failure still has no issue and waits on the maintainer.",
+  "summary": "install.yml red: Docker Hub 502 on WSL2/docker and the #99 Lima boot stall on macOS/lima; model catalog red for the 2nd night on the ContentModeSwitch change; e2e green.",
   "waiting": [
     {
       "link": "https://github.com/taxiway-sh/taxiway/actions/runs/40438046958",
       "action": "ci-watch-20261027-1 (create-issue): open an issue linking #255: the GPT-5.5 guidance pin breaks on a changed ContentModeSwitch tag."
     },
     {
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/40617126462",
+      "action": "ci-watch-20261028-1 (rerun-workflow): rerun only the Windows WSL2 / docker job; Docker Hub returned 502 while pulling caddy."
+    },
+    {
       "link": "https://github.com/taxiway-sh/taxiway/issues/99",
-      "action": "ci-watch-20261024-1 (comment-issue): add to #99 that the host Colima VM shows the same boot stall (run 40048538918, macOS / docker)."
+      "action": "ci-watch-20261028-2 (comment-issue): add the 10-28 macOS/lima recurrence and the 10-24 Colima boot stall to #99; supersedes ci-watch-20261024-1."
     }
   ],
   "promptVersion": "b84fc74ceb53afbd14cb67bcaec7e22a37892757"
