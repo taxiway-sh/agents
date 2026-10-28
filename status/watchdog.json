@@ -1,16 +1,24 @@
 {
   "id": "watchdog",
-  "date": "2026-10-27T04:46:08Z",
+  "date": "2026-10-28T04:46:26Z",
   "result": "ok",
-  "summary": "All seven cloud agents on time and nightly workflows all started; model catalog updater red on a changed ChatGPT page tag; machine still offline; 13 items wait on the maintainer.",
+  "summary": "All seven cloud agents on time and nightly workflows all started; model catalog updater red a 2nd night, install red (Docker Hub 502, #99); machine still offline; 14 items wait on the maintainer.",
   "waiting": [
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/40438046958",
-      "action": "model-catalog-20261027-1 (create-issue): GPT-5.5 guidance match includes a page layout tag; the updater fails every run until fixed."
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/40621597959",
+      "action": "model-catalog-20261027-1 (create-issue): GPT-5.5 guidance match includes a page layout tag; the updater has failed two nights running."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/actions/runs/40438046958",
       "action": "ci-watch-20261027-1 (create-issue): same failure, issue linking #255; answer together with model-catalog-20261027-1."
+    },
+    {
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/40617126462",
+      "action": "ci-watch-20261028-1 (rerun-workflow): rerun only the Windows WSL2 / docker job; Docker Hub returned 502."
+    },
+    {
+      "link": "https://github.com/taxiway-sh/taxiway/issues/99",
+      "action": "ci-watch-20261028-2 (comment-issue): add the 10-28 macOS/lima recurrence and the 10-24 Colima stall to #99."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/315",
@@ -31,10 +39,6 @@
     {
       "link": "https://github.com/taxiway-sh/taxiway/actions/runs/40150988198",
       "action": "model-catalog-20261025-1 (create-issue): the updater reports models already in the catalog as skipped, waiting on a LiteLLM release."
-    },
-    {
-      "link": "https://github.com/taxiway-sh/taxiway/issues/99",
-      "action": "ci-watch-20261024-1 (comment-issue): add the macOS / docker Colima boot stall (run 40048538918) to #99."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/pull/297",
