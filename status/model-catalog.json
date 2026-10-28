@@ -1,11 +1,11 @@
 {
   "id": "model-catalog",
-  "date": "2026-10-27T03:51:26Z",
+  "date": "2026-10-28T03:51:35Z",
   "result": "partial",
-  "summary": "2026-10-27 updater run failed at preparation: ChatGPT page moved the GPT-5.5 notice, so its trailing layout tag no longer matches the hard-coded guidance in internal/modelupdate/sources.go. No review PR; #303 still draft.",
+  "summary": "Unchanged since the previous run: the 2026-10-28 updater run failed again at preparation on the ChatGPT GPT-5.5 notice (layout tag in the hard-coded guidance). No review PR; #303 still draft.",
   "waiting": [
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/40438046958",
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/40621597959",
       "action": "create-issue (model-catalog-20261027-1): GPT-5.5 guidance match includes a page layout tag; the updater fails on every run until fixed."
     },
     {
