@@ -1,16 +1,12 @@
 {
   "id": "ci-watch",
-  "date": "2026-10-28T07:06:43Z",
+  "date": "2026-10-29T04:06:16Z",
   "result": "ok",
-  "summary": "Catch-up: no nightly run was pending; the install and model catalog failures still wait on the maintainer.",
+  "summary": "model-catalog-update.yml red for the 3rd night on the ChatGPT ContentModeSwitch change, still without an issue; e2e and install green, so the WSL2/docker rerun is no longer needed.",
   "waiting": [
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/40438046958",
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/40808272461",
       "action": "ci-watch-20261027-1 (create-issue): open an issue linking #255: the GPT-5.5 guidance pin breaks on a changed ContentModeSwitch tag."
-    },
-    {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/40617126462",
-      "action": "ci-watch-20261028-1 (rerun-workflow): rerun only the Windows WSL2 / docker job; Docker Hub returned 502 while pulling caddy."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/99",
