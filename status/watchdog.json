@@ -1,20 +1,16 @@
 {
   "id": "watchdog",
-  "date": "2026-10-28T04:46:26Z",
+  "date": "2026-10-29T04:46:28Z",
   "result": "ok",
-  "summary": "All seven cloud agents on time and nightly workflows all started; model catalog updater red a 2nd night, install red (Docker Hub 502, #99); machine still offline; 14 items wait on the maintainer.",
+  "summary": "All seven cloud agents on time and nightly workflows all started; model catalog updater red a 3rd night with its issue still unapproved; machine still offline; 13 items wait on the maintainer.",
   "waiting": [
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/40621597959",
-      "action": "model-catalog-20261027-1 (create-issue): GPT-5.5 guidance match includes a page layout tag; the updater has failed two nights running."
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/40808272461",
+      "action": "model-catalog-20261027-1 (create-issue): GPT-5.5 guidance match includes a page layout tag; the updater has failed three nights running."
     },
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/40438046958",
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/40808272461",
       "action": "ci-watch-20261027-1 (create-issue): same failure, issue linking #255; answer together with model-catalog-20261027-1."
-    },
-    {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/40617126462",
-      "action": "ci-watch-20261028-1 (rerun-workflow): rerun only the Windows WSL2 / docker job; Docker Hub returned 502."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/99",
