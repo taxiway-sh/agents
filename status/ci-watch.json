@@ -1,8 +1,8 @@
 {
   "id": "ci-watch",
-  "date": "2026-10-30T04:06:13Z",
+  "date": "2026-10-30T07:06:31Z",
   "result": "ok",
-  "summary": "install.yml red on Linux/lima and macOS/lima with the #99 boot stall; model catalog red for the 4th night on the ChatGPT ContentModeSwitch change, still without an issue; e2e green.",
+  "summary": "Catch-up: no nightly run was pending; the model catalog failure and the #99 recurrences still wait on the maintainer.",
   "waiting": [
     {
       "link": "https://github.com/taxiway-sh/taxiway/actions/runs/40994180224",
