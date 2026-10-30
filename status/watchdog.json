@@ -1,20 +1,20 @@
 {
   "id": "watchdog",
-  "date": "2026-10-29T04:46:28Z",
+  "date": "2026-10-30T04:46:17Z",
   "result": "ok",
-  "summary": "All seven cloud agents on time and nightly workflows all started; model catalog updater red a 3rd night with its issue still unapproved; machine still offline; 13 items wait on the maintainer.",
+  "summary": "All seven cloud agents on time and nightly workflows all started; model catalog updater red a 4th night with its issue still unapproved; install red on the #99 Lima boot stall; machine still offline; 13 items wait.",
   "waiting": [
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/40808272461",
-      "action": "model-catalog-20261027-1 (create-issue): GPT-5.5 guidance match includes a page layout tag; the updater has failed three nights running."
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/40994180224",
+      "action": "model-catalog-20261027-1 (create-issue): GPT-5.5 guidance match includes a page layout tag; the updater has failed four nights running."
     },
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/40808272461",
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/40994180224",
       "action": "ci-watch-20261027-1 (create-issue): same failure, issue linking #255; answer together with model-catalog-20261027-1."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/99",
-      "action": "ci-watch-20261028-2 (comment-issue): add the 10-28 macOS/lima recurrence and the 10-24 Colima stall to #99."
+      "action": "ci-watch-20261030-1 (comment-issue): add the 10-30 Linux/lima and macOS/lima, 10-28 and 10-24 boot stalls to #99."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/315",
