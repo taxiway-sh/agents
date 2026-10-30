@@ -1,16 +1,16 @@
 {
   "id": "ci-watch",
-  "date": "2026-10-29T07:11:35Z",
+  "date": "2026-10-30T04:06:13Z",
   "result": "ok",
-  "summary": "Catch-up: no nightly run was pending; the model catalog failure still has no issue and waits on the maintainer.",
+  "summary": "install.yml red on Linux/lima and macOS/lima with the #99 boot stall; model catalog red for the 4th night on the ChatGPT ContentModeSwitch change, still without an issue; e2e green.",
   "waiting": [
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/40808272461",
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/40994180224",
       "action": "ci-watch-20261027-1 (create-issue): open an issue linking #255: the GPT-5.5 guidance pin breaks on a changed ContentModeSwitch tag."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/99",
-      "action": "ci-watch-20261028-2 (comment-issue): add the 10-28 macOS/lima recurrence and the 10-24 Colima boot stall to #99; supersedes ci-watch-20261024-1."
+      "action": "ci-watch-20261030-1 (comment-issue): add the 10-30 Linux/lima and macOS/lima, 10-28 macOS/lima and 10-24 Colima boot stalls to #99; supersedes ci-watch-20261028-2."
     }
   ],
   "promptVersion": "b84fc74ceb53afbd14cb67bcaec7e22a37892757"
