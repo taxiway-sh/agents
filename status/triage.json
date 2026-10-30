@@ -1,8 +1,8 @@
 {
   "id": "triage",
-  "date": "2026-10-29T04:20:00Z",
+  "date": "2026-10-30T04:20:00Z",
   "result": "ok",
-  "summary": "No backlog change since 2026-10-26 (third quiet run); triage-20261026-1 and -2 still await the maintainer; fix PRs #303-#312 idle since 2026-10-24.",
+  "summary": "No backlog change since 2026-10-26 (fourth quiet run); triage-20261026-1 and -2 still await the maintainer; fix PRs #303-#312 idle since 2026-10-24.",
   "waiting": [
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/315",
