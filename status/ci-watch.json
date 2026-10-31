@@ -1,8 +1,8 @@
 {
   "id": "ci-watch",
-  "date": "2026-10-31T04:06:02Z",
+  "date": "2026-10-31T07:06:09Z",
   "result": "ok",
-  "summary": "model-catalog-update.yml red for the 5th night on the ChatGPT ContentModeSwitch change, still without an issue; e2e and install green.",
+  "summary": "Catch-up: no nightly run was pending; the model catalog failure and the #99 recurrences still wait on the maintainer.",
   "waiting": [
     {
       "link": "https://github.com/taxiway-sh/taxiway/actions/runs/41161073585",
