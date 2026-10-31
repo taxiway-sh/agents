@@ -1,15 +1,15 @@
 {
   "id": "watchdog",
-  "date": "2026-10-30T04:46:17Z",
+  "date": "2026-10-31T04:45:58Z",
   "result": "ok",
-  "summary": "All seven cloud agents on time and nightly workflows all started; model catalog updater red a 4th night with its issue still unapproved; install red on the #99 Lima boot stall; machine still offline; 13 items wait.",
+  "summary": "All seven cloud agents on time and nightly workflows all started; model catalog updater red a 5th night with its issue still unapproved; e2e and install green; machine still offline; 13 items wait.",
   "waiting": [
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/40994180224",
-      "action": "model-catalog-20261027-1 (create-issue): GPT-5.5 guidance match includes a page layout tag; the updater has failed four nights running."
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/41161073585",
+      "action": "model-catalog-20261027-1 (create-issue): GPT-5.5 guidance match includes a page layout tag; the updater has failed five nights running."
     },
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/40994180224",
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/41161073585",
       "action": "ci-watch-20261027-1 (create-issue): same failure, issue linking #255; answer together with model-catalog-20261027-1."
     },
     {
