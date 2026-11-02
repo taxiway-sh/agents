@@ -1,16 +1,20 @@
 {
   "id": "ci-watch",
-  "date": "2026-11-01T07:06:00Z",
+  "date": "2026-11-02T04:06:29Z",
   "result": "ok",
-  "summary": "Catch-up: no nightly run was pending; the model catalog failure and the #99 recurrences still wait on the maintainer.",
+  "summary": "install.yml red: hosted runner lost on WSL2/docker during Install prerequisites, #99 boot stall on macOS/lima; model catalog red for the 7th night, still without an issue; e2e green.",
   "waiting": [
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/41265484027",
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/41379171719",
       "action": "ci-watch-20261027-1 (create-issue): open an issue linking #255: the GPT-5.5 guidance pin breaks on a changed ContentModeSwitch tag."
     },
     {
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/41374704420",
+      "action": "ci-watch-20261102-1 (rerun-workflow): rerun only the Windows WSL2 / docker job; the hosted runner was lost during Install prerequisites."
+    },
+    {
       "link": "https://github.com/taxiway-sh/taxiway/issues/99",
-      "action": "ci-watch-20261030-1 (comment-issue): add the 10-30 Linux/lima and macOS/lima, 10-28 macOS/lima and 10-24 Colima boot stalls to #99; supersedes ci-watch-20261028-2."
+      "action": "ci-watch-20261102-2 (comment-issue): add the 11-02, 10-30 and 10-28 Lima boot stalls and the 10-24 Colima one to #99; supersedes ci-watch-20261030-1."
     }
   ],
   "promptVersion": "b84fc74ceb53afbd14cb67bcaec7e22a37892757"
