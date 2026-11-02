@@ -1,9 +1,13 @@
 {
   "id": "improvement",
-  "date": "2026-10-26T03:54:41Z",
+  "date": "2026-11-02T03:47:59Z",
   "result": "ok",
-  "summary": "Week 2026-10-19..26: 64 PRs merged, 22 agent answers (21 ok), CI on main never red; three issue proposals wait on the maintainer, led by a Markdown wrap check for nits seen in 9 PRs.",
+  "summary": "Week 2026-10-26..11-02: no PRs merged and no maintainer answers; 27 of 31 contributions runs since 2026-10-21 found nothing new, so a cheaper contributions schedule is proposed, and last week's three proposals still wait.",
   "waiting": [
+    {
+      "link": "https://github.com/taxiway-sh/agents/commit/0095b1d",
+      "action": "improvement-20261102-1 (create-issue, then change-agent-system draft PR): run the contributions agent twice per weekday instead of four times; 27 of its 31 runs since 2026-10-21 found no new activity."
+    },
     {
       "link": "https://github.com/taxiway-sh/taxiway/pull/297",
       "action": "improvement-20261026-1 (create-issue): propose an issue to state the Markdown wrap width and have check-agent-docs flag overlong prose lines (wrap nits in 9 PRs)."
@@ -21,16 +25,12 @@
   "frictions": [
     {
       "kind": "ambiguous-rule",
-      "summary": "The prompt bars draft PRs on skills this agent uses, and its declaration lists nearly every skill, so every rule fix became an issue proposal instead of a draft PR."
+      "summary": "No rule says whether a proposal left unanswered keeps its id in the next real run or is proposed again with a new one; this run kept the ids."
     },
     {
       "kind": "check-not-run",
       "summary": "Machine queue waits were not read: the state repository has no queue/ directory yet.",
       "link": "https://github.com/taxiway-sh/taxiway/issues/197"
-    },
-    {
-      "kind": "check-not-run",
-      "summary": "Review rounds were unknown for 27 of the week's 65 merged PRs, which predate the Independent review line."
     }
   ]
 }
