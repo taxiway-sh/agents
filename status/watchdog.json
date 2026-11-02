@@ -1,20 +1,24 @@
 {
   "id": "watchdog",
-  "date": "2026-11-01T04:46:34Z",
+  "date": "2026-11-02T04:46:10Z",
   "result": "ok",
-  "summary": "All seven cloud agents on time and nightly workflows all started; model catalog updater red a 6th night with its issue still unapproved; e2e and install green; machine still offline; 13 items wait.",
+  "summary": "All seven cloud agents on time and nightly workflows all started; model catalog updater red a 7th night with its issue still unapproved; install red (lost runner, #99); machine still offline; 16 items wait.",
   "waiting": [
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/41265484027",
-      "action": "model-catalog-20261027-1 (create-issue): GPT-5.5 guidance match includes a page layout tag; the updater has failed six nights running."
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/41379171719",
+      "action": "model-catalog-20261027-1 (create-issue): GPT-5.5 guidance match includes a page layout tag; the updater has failed seven nights running."
     },
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/41265484027",
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/41379171719",
       "action": "ci-watch-20261027-1 (create-issue): same failure, issue linking #255; answer together with model-catalog-20261027-1."
     },
     {
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/41374704420",
+      "action": "ci-watch-20261102-1 (rerun-workflow): rerun only the Windows WSL2 / docker job; the hosted runner was lost."
+    },
+    {
       "link": "https://github.com/taxiway-sh/taxiway/issues/99",
-      "action": "ci-watch-20261030-1 (comment-issue): add the 10-30 Linux/lima and macOS/lima, 10-28 and 10-24 boot stalls to #99."
+      "action": "ci-watch-20261102-2 (comment-issue): add the 11-02, 10-30, 10-28 Lima and 10-24 Colima boot stalls to #99."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/315",
@@ -29,12 +33,20 @@
       "action": "dependency-watch-20261026-1 (create-issue): bump the Gas City default from 1.5.0 to 1.5.1 (security fixes)."
     },
     {
+      "link": "https://github.com/taxiway-sh/taxiway/issues/178",
+      "action": "dependency-watch-20261102-1 (comment-issue): status comment: gascity#5985 merged on main 2026-10-31, not yet released."
+    },
+    {
       "link": "https://github.com/taxiway-sh/taxiway/pull/95",
       "action": "contributions-20261023-1: approve the COMMENT re-review saying CI waits on #243."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/actions/runs/40150988198",
       "action": "model-catalog-20261025-1 (create-issue): the updater reports models already in the catalog as skipped, waiting on a LiteLLM release."
+    },
+    {
+      "link": "https://github.com/taxiway-sh/agents/commit/0095b1d",
+      "action": "improvement-20261102-1 (create-issue, then draft PR): run the contributions agent twice per weekday instead of four times."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/pull/297",
