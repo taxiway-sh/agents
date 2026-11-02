@@ -1,8 +1,8 @@
 {
   "id": "ci-watch",
-  "date": "2026-11-02T04:06:29Z",
+  "date": "2026-11-02T07:17:24Z",
   "result": "ok",
-  "summary": "install.yml red: hosted runner lost on WSL2/docker during Install prerequisites, #99 boot stall on macOS/lima; model catalog red for the 7th night, still without an issue; e2e green.",
+  "summary": "Catch-up: no nightly run was pending; the model catalog failure, the WSL2/docker rerun and the #99 recurrences still wait on the maintainer.",
   "waiting": [
     {
       "link": "https://github.com/taxiway-sh/taxiway/actions/runs/41379171719",
