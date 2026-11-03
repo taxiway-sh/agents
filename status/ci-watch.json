@@ -1,16 +1,12 @@
 {
   "id": "ci-watch",
-  "date": "2026-11-02T07:17:24Z",
+  "date": "2026-11-03T04:06:01Z",
   "result": "ok",
-  "summary": "Catch-up: no nightly run was pending; the model catalog failure, the WSL2/docker rerun and the #99 recurrences still wait on the maintainer.",
+  "summary": "Model catalog red for the 8th night, still without an issue; e2e green; install.yml pending on macOS/lima with the other five jobs green, so the WSL2/docker rerun is no longer needed.",
   "waiting": [
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/41379171719",
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/41575446343",
       "action": "ci-watch-20261027-1 (create-issue): open an issue linking #255: the GPT-5.5 guidance pin breaks on a changed ContentModeSwitch tag."
-    },
-    {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/41374704420",
-      "action": "ci-watch-20261102-1 (rerun-workflow): rerun only the Windows WSL2 / docker job; the hosted runner was lost during Install prerequisites."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/99",
