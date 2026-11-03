@@ -1,20 +1,16 @@
 {
   "id": "watchdog",
-  "date": "2026-11-02T04:46:10Z",
+  "date": "2026-11-03T04:46:36Z",
   "result": "ok",
-  "summary": "All seven cloud agents on time and nightly workflows all started; model catalog updater red a 7th night with its issue still unapproved; install red (lost runner, #99); machine still offline; 16 items wait.",
+  "summary": "All seven cloud agents on time and nightly workflows all started (install still running); model catalog updater red an 8th night with its issue still unapproved; machine still offline; 15 items wait.",
   "waiting": [
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/41379171719",
-      "action": "model-catalog-20261027-1 (create-issue): GPT-5.5 guidance match includes a page layout tag; the updater has failed seven nights running."
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/41575446343",
+      "action": "model-catalog-20261027-1 (create-issue): GPT-5.5 guidance match includes a page layout tag; the updater has failed eight nights running."
     },
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/41379171719",
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/41575446343",
       "action": "ci-watch-20261027-1 (create-issue): same failure, issue linking #255; answer together with model-catalog-20261027-1."
-    },
-    {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/41374704420",
-      "action": "ci-watch-20261102-1 (rerun-workflow): rerun only the Windows WSL2 / docker job; the hosted runner was lost."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/99",
@@ -62,7 +58,7 @@
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/171",
-      "action": "contributions: waits on the reporter; still needs-triage for labels and priority."
+      "action": "contributions: waits on the reporter (nudge due 2026-11-04); still needs-triage for labels and priority."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/blob/main/.agents/agents/machine.json",
