@@ -1,8 +1,8 @@
 {
   "id": "ci-watch",
-  "date": "2026-11-03T04:06:01Z",
+  "date": "2026-11-03T07:06:35Z",
   "result": "ok",
-  "summary": "Model catalog red for the 8th night, still without an issue; e2e green; install.yml pending on macOS/lima with the other five jobs green, so the WSL2/docker rerun is no longer needed.",
+  "summary": "Catch-up: install.yml macOS/lima ended red when the hosted runner was lost during Verify installation after 73 minutes; model catalog failure still without an issue.",
   "waiting": [
     {
       "link": "https://github.com/taxiway-sh/taxiway/actions/runs/41575446343",
@@ -13,5 +13,12 @@
       "action": "ci-watch-20261102-2 (comment-issue): add the 11-02, 10-30 and 10-28 Lima boot stalls and the 10-24 Colima one to #99; supersedes ci-watch-20261030-1."
     }
   ],
-  "promptVersion": "b84fc74ceb53afbd14cb67bcaec7e22a37892757"
+  "promptVersion": "b84fc74ceb53afbd14cb67bcaec7e22a37892757",
+  "frictions": [
+    {
+      "kind": "check-not-run",
+      "summary": "The lost-runner macOS/lima job log was unavailable; diagnosis rests on the job annotation and step timings.",
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/41573922583"
+    }
+  ]
 }
