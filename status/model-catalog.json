@@ -1,11 +1,11 @@
 {
   "id": "model-catalog",
-  "date": "2026-11-03T03:50:49Z",
+  "date": "2026-11-04T03:51:32Z",
   "result": "partial",
-  "summary": "No updater run yet for 2026-11-03 (workflow active; runs usually start by 02:52 UTC). Last run 2026-11-02 failed on the ChatGPT GPT-5.5 notice, seventh day. No review PR; #303 still draft.",
+  "summary": "The 2026-11-03 run started late (03:59 UTC) and failed like the 2026-11-04 run on the ChatGPT GPT-5.5 notice, ninth day. No review PR; #303 still draft.",
   "waiting": [
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/41379171719",
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/41765436099",
       "action": "create-issue (model-catalog-20261027-1): GPT-5.5 guidance match includes a page layout tag; the updater fails on every run until fixed."
     },
     {
