@@ -1,9 +1,13 @@
 {
   "id": "contributions",
-  "date": "2026-11-04T13:22:13Z",
+  "date": "2026-11-04T16:22:04Z",
   "result": "ok",
-  "summary": "No new external activity since the last run; the #95 COMMENT re-review still awaits approval, #96 waits on #243, and #171 waits on its reporter.",
+  "summary": "#171 passed two weeks without the reporter's answer; a nudge draft awaits approval. The #95 COMMENT re-review still awaits approval and #96 waits on #243.",
   "waiting": [
+    {
+      "link": "https://github.com/taxiway-sh/taxiway/issues/171",
+      "action": "contributions-20261104-1: approve the nudge restating the pending question; still needs-triage."
+    },
     {
       "link": "https://github.com/taxiway-sh/taxiway/pull/95",
       "action": "contributions-20261023-1: approve the COMMENT re-review saying CI waits on #243 (replaces contributions-20261022-2)."
@@ -11,13 +15,15 @@
     {
       "link": "https://github.com/taxiway-sh/taxiway/pull/96",
       "action": "Waits on #243 before fork CI approval; then carry on a Taxiway branch for lifecycle E2E. Nothing is asked of the contributor."
-    },
-    {
-      "link": "https://github.com/taxiway-sh/taxiway/issues/171",
-      "action": "Waits on the reporter's answer to the 2026-10-21 question; two weeks pass at 14:20 UTC today; still needs-triage."
     }
   ],
   "promptVersion": "b84fc74ceb53afbd14cb67bcaec7e22a37892757",
   "approvals": [],
-  "frictions": []
+  "frictions": [
+    {
+      "kind": "ambiguous-rule",
+      "summary": "CONTRIBUTING promises reminders only for PRs and claims, while the skill nudges any contribution waiting on its author; unclear whether an issue awaiting its reporter's answer is nudged.",
+      "link": "https://github.com/taxiway-sh/taxiway/issues/171"
+    }
+  ]
 }
