@@ -1,20 +1,20 @@
 {
   "id": "watchdog",
-  "date": "2026-11-04T04:46:36Z",
+  "date": "2026-11-05T04:46:59Z",
   "result": "ok",
-  "summary": "All seven cloud agents on time and nightly workflows all started; model catalog updater red a 9th night with its issue still unapproved; e2e and install green; machine still offline; 15 items wait.",
+  "summary": "All seven cloud agents on time and nightly workflows all started; model catalog updater red a 10th night with its issue still unapproved; install red on the #99 Lima stall; machine still offline; 15 items wait.",
   "waiting": [
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/41765436099",
-      "action": "model-catalog-20261027-1 (create-issue): GPT-5.5 guidance match includes a page layout tag; the updater has failed nine nights running."
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/41963081523",
+      "action": "model-catalog-20261027-1 (create-issue): GPT-5.5 guidance match includes a page layout tag; the updater has failed ten nights running."
     },
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/41765436099",
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/41963081523",
       "action": "ci-watch-20261027-1 (create-issue): same failure, issue linking #255; answer together with model-catalog-20261027-1."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/99",
-      "action": "ci-watch-20261102-2 (comment-issue): add the 11-02, 10-30, 10-28 Lima and 10-24 Colima boot stalls to #99."
+      "action": "ci-watch-20261105-1 (comment-issue): add the 11-05, 11-02, 10-30, 10-28 Lima and 10-24 Colima boot stalls to #99."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/315",
@@ -25,16 +25,20 @@
       "action": "triage-20261026-2: add documentation and capability:contributing."
     },
     {
+      "link": "https://github.com/taxiway-sh/taxiway/issues/171",
+      "action": "contributions-20261104-1: approve the nudge restating the pending question to the reporter; still needs-triage."
+    },
+    {
+      "link": "https://github.com/taxiway-sh/taxiway/pull/95",
+      "action": "contributions-20261023-1: approve the COMMENT re-review saying CI waits on #243."
+    },
+    {
       "link": "https://github.com/taxiway-sh/taxiway/issues",
       "action": "dependency-watch-20261026-1 (create-issue): bump the Gas City default from 1.5.0 to 1.5.1 (security fixes)."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/178",
       "action": "dependency-watch-20261102-1 (comment-issue): status comment: gascity#5985 merged on main 2026-10-31, not yet released."
-    },
-    {
-      "link": "https://github.com/taxiway-sh/taxiway/pull/95",
-      "action": "contributions-20261023-1: approve the COMMENT re-review saying CI waits on #243."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/actions/runs/40150988198",
@@ -55,10 +59,6 @@
     {
       "link": "https://github.com/taxiway-sh/taxiway/pull/96",
       "action": "improvement-20261026-3 (create-issue): two run-contract rules (gh api REST reads; in-session OK names the proposal id)."
-    },
-    {
-      "link": "https://github.com/taxiway-sh/taxiway/issues/171",
-      "action": "contributions: waits on the reporter (nudge due 2026-11-04); still needs-triage for labels and priority."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/blob/main/.agents/agents/machine.json",
