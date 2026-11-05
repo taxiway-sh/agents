@@ -1,8 +1,8 @@
 {
   "id": "contributions",
-  "date": "2026-11-04T16:22:04Z",
+  "date": "2026-11-05T07:21:33Z",
   "result": "ok",
-  "summary": "#171 passed two weeks without the reporter's answer; a nudge draft awaits approval. The #95 COMMENT re-review still awaits approval and #96 waits on #243.",
+  "summary": "No new external activity since the last run; the #171 nudge and the #95 COMMENT re-review still await approval, and #96 waits on #243.",
   "waiting": [
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/171",
@@ -19,11 +19,5 @@
   ],
   "promptVersion": "b84fc74ceb53afbd14cb67bcaec7e22a37892757",
   "approvals": [],
-  "frictions": [
-    {
-      "kind": "ambiguous-rule",
-      "summary": "CONTRIBUTING promises reminders only for PRs and claims, while the skill nudges any contribution waiting on its author; unclear whether an issue awaiting its reporter's answer is nudged.",
-      "link": "https://github.com/taxiway-sh/taxiway/issues/171"
-    }
-  ]
+  "frictions": []
 }
