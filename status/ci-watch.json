@@ -1,8 +1,8 @@
 {
   "id": "ci-watch",
-  "date": "2026-11-06T04:05:55Z",
+  "date": "2026-11-06T07:06:00Z",
   "result": "ok",
-  "summary": "install.yml red on macOS/lima: Docker Hub pull timed out inside a Colima VM whose boot never finished, as on 10-24 (#99); model catalog red for the 11th night, still without an issue; e2e green.",
+  "summary": "Catch-up: no nightly run was pending; the model catalog failure and the #99 recurrences still wait on the maintainer.",
   "waiting": [
     {
       "link": "https://github.com/taxiway-sh/taxiway/actions/runs/42157623674",
