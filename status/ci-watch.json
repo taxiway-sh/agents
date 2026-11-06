@@ -1,16 +1,16 @@
 {
   "id": "ci-watch",
-  "date": "2026-11-05T07:05:39Z",
+  "date": "2026-11-06T04:05:55Z",
   "result": "ok",
-  "summary": "Catch-up: no nightly run was pending; the model catalog failure and the #99 recurrences still wait on the maintainer.",
+  "summary": "install.yml red on macOS/lima: Docker Hub pull timed out inside a Colima VM whose boot never finished, as on 10-24 (#99); model catalog red for the 11th night, still without an issue; e2e green.",
   "waiting": [
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/41963081523",
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/42157623674",
       "action": "ci-watch-20261027-1 (create-issue): open an issue linking #255: the GPT-5.5 guidance pin breaks on a changed ContentModeSwitch tag."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/99",
-      "action": "ci-watch-20261105-1 (comment-issue): add the 11-05, 11-02, 10-30 and 10-28 Lima boot stalls and the 10-24 Colima one to #99; supersedes ci-watch-20261102-2."
+      "action": "ci-watch-20261106-1 (comment-issue): add the 11-05, 11-02, 10-30, 10-28 Lima boot stalls and the 11-06, 10-24 Colima ones to #99; supersedes ci-watch-20261105-1."
     }
   ],
   "promptVersion": "b84fc74ceb53afbd14cb67bcaec7e22a37892757"
