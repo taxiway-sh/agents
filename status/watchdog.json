@@ -1,20 +1,20 @@
 {
   "id": "watchdog",
-  "date": "2026-11-07T04:46:10Z",
+  "date": "2026-11-08T04:46:38Z",
   "result": "ok",
-  "summary": "All seven cloud agents on time and nightly workflows all started; model catalog updater red a 12th night with its issue still unapproved; install red on the #99 Lima stall; machine still offline; 15 items wait.",
+  "summary": "All seven cloud agents on time and nightly workflows all started; model catalog updater red a 13th night with its issue still unapproved; install red a 3rd night on the #99 Lima stall; machine offline; 15 items wait.",
   "waiting": [
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/42332619126",
-      "action": "model-catalog-20261027-1 (create-issue): GPT-5.5 guidance match includes a page layout tag; the updater has failed twelve nights running."
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/42439495129",
+      "action": "model-catalog-20261027-1 (create-issue): GPT-5.5 guidance match includes a page layout tag; the updater has failed thirteen nights running."
     },
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/42332619126",
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/42439495129",
       "action": "ci-watch-20261027-1 (create-issue): same failure, issue linking #255; answer together with model-catalog-20261027-1."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/99",
-      "action": "ci-watch-20261107-1 (comment-issue): add the five Lima and two Colima boot stalls since 10-24 to #99."
+      "action": "ci-watch-20261108-1 (comment-issue): add the six Lima and two Colima boot stalls since 10-24 to #99; install red 3 nights running."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/315",
