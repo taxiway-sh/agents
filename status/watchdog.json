@@ -1,20 +1,20 @@
 {
   "id": "watchdog",
-  "date": "2026-11-08T04:46:38Z",
+  "date": "2026-11-09T04:46:39Z",
   "result": "ok",
-  "summary": "All seven cloud agents on time and nightly workflows all started; model catalog updater red a 13th night with its issue still unapproved; install red a 3rd night on the #99 Lima stall; machine offline; 15 items wait.",
+  "summary": "All seven cloud agents on time and nightly workflows all started; model catalog updater red a 14th night with its issue still unapproved; install red on the #99 Lima stall; machine offline; 15 items wait.",
   "waiting": [
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/42439495129",
-      "action": "model-catalog-20261027-1 (create-issue): GPT-5.5 guidance match includes a page layout tag; the updater has failed thirteen nights running."
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/42553563417",
+      "action": "model-catalog-20261027-1 (create-issue): GPT-5.5 guidance match includes a page layout tag; the updater has failed fourteen nights running."
     },
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/42439495129",
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/42553563417",
       "action": "ci-watch-20261027-1 (create-issue): same failure, issue linking #255; answer together with model-catalog-20261027-1."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/99",
-      "action": "ci-watch-20261108-1 (comment-issue): add the six Lima and two Colima boot stalls since 10-24 to #99; install red 3 nights running."
+      "action": "ci-watch-20261109-1 (comment-issue): add the seven Lima and two Colima boot stalls since 10-24 to #99; install red 6 of the last 7 nights."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/315",
@@ -46,7 +46,7 @@
     },
     {
       "link": "https://github.com/taxiway-sh/agents/commit/0095b1d",
-      "action": "improvement-20261102-1 (create-issue, then draft PR): run the contributions agent twice per weekday instead of four times."
+      "action": "improvement-20261102-1 (create-issue, then draft PR): run the contributions agent twice per weekday; 46 of its 51 runs found nothing new."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/pull/297",
