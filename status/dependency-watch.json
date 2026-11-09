@@ -1,8 +1,8 @@
 {
   "id": "dependency-watch",
-  "date": "2026-11-02T03:42:48Z",
+  "date": "2026-11-09T03:41:31Z",
   "result": "ok",
-  "summary": "gascity#5985 (#178) merged on Gas City main 2026-10-31 but in no release yet (latest 1.5.1): status comment proposed. Gas City 1.5.1 bump still awaits an answer. LiteLLM 1.106.6 is out; #303 targets 1.106.3.",
+  "summary": "No new Gas City release, so gascity#5985 (#178) is merged upstream but still unshipped. LiteLLM 1.108.3 (LTS line) is out, covered by #257/#303. Both proposals from earlier runs still await an answer.",
   "waiting": [
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues",
