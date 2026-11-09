@@ -1,12 +1,12 @@
 {
   "id": "improvement",
-  "date": "2026-11-02T03:47:59Z",
+  "date": "2026-11-09T03:46:45Z",
   "result": "ok",
-  "summary": "Week 2026-10-26..11-02: no PRs merged and no maintainer answers; 27 of 31 contributions runs since 2026-10-21 found nothing new, so a cheaper contributions schedule is proposed, and last week's three proposals still wait.",
+  "summary": "Week 2026-11-02..09: no PRs merged and no maintainer answers for a second week; no new proposals, the four pending ones still wait, and nightly install.yml failed 6 of 7 nights on the #99 boot stall.",
   "waiting": [
     {
       "link": "https://github.com/taxiway-sh/agents/commit/0095b1d",
-      "action": "improvement-20261102-1 (create-issue, then change-agent-system draft PR): run the contributions agent twice per weekday instead of four times; 27 of its 31 runs since 2026-10-21 found no new activity."
+      "action": "improvement-20261102-1 (create-issue, then change-agent-system draft PR): run the contributions agent twice per weekday instead of four times; 46 of its 51 runs since 2026-10-21 found no new activity."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/pull/297",
