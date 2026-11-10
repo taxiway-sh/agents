@@ -1,15 +1,15 @@
 {
   "id": "ci-watch",
-  "date": "2026-11-10T04:05:42Z",
+  "date": "2026-11-10T07:07:22Z",
   "result": "ok",
-  "summary": "No nightly run started since 11-09 (all three workflows active, GitHub status green); the 07:00 catch-up rechecks. Model catalog and #99 proposals still wait.",
+  "summary": "Catch-up: runs started ~6h late; e2e red on claude-code and codex from an Ubuntu security mirror sync (apt 404 / size mismatch), install macOS/lima lost its runner, model catalog red for the 15th night.",
   "waiting": [
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions",
-      "action": "No scheduled e2e, install or model catalog run started in the past 24h; check the schedules if the 07:00 catch-up still finds none."
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/42754034892",
+      "action": "ci-watch-20261110-1 (rerun-workflow): rerun the failed e2e (claude-code) and e2e (codex) jobs; apt hit an Ubuntu mirror sync in progress."
     },
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/42553563417",
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/42757928771",
       "action": "ci-watch-20261027-1 (create-issue): open an issue linking #255: the GPT-5.5 guidance pin breaks on a changed ContentModeSwitch tag."
     },
     {
@@ -17,5 +17,12 @@
       "action": "ci-watch-20261109-1 (comment-issue): add the 11-09, 11-08, 11-07, 11-05, 11-02, 10-30, 10-28 Lima and 11-06, 10-24 Colima boot stalls to #99; supersedes ci-watch-20261108-1."
     }
   ],
-  "promptVersion": "b84fc74ceb53afbd14cb67bcaec7e22a37892757"
+  "promptVersion": "b84fc74ceb53afbd14cb67bcaec7e22a37892757",
+  "frictions": [
+    {
+      "kind": "check-not-run",
+      "summary": "The lost-runner macOS/lima job log was unavailable; diagnosis rests on the job annotation and step timings.",
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/42755376699"
+    }
+  ]
 }
