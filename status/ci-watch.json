@@ -1,9 +1,13 @@
 {
   "id": "ci-watch",
-  "date": "2026-11-09T07:07:17Z",
+  "date": "2026-11-10T04:05:42Z",
   "result": "ok",
-  "summary": "Catch-up: no nightly run was pending; the model catalog failure and the #99 recurrences still wait on the maintainer.",
+  "summary": "No nightly run started since 11-09 (all three workflows active, GitHub status green); the 07:00 catch-up rechecks. Model catalog and #99 proposals still wait.",
   "waiting": [
+    {
+      "link": "https://github.com/taxiway-sh/taxiway/actions",
+      "action": "No scheduled e2e, install or model catalog run started in the past 24h; check the schedules if the 07:00 catch-up still finds none."
+    },
     {
       "link": "https://github.com/taxiway-sh/taxiway/actions/runs/42553563417",
       "action": "ci-watch-20261027-1 (create-issue): open an issue linking #255: the GPT-5.5 guidance pin breaks on a changed ContentModeSwitch tag."
