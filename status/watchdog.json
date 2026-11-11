@@ -1,24 +1,24 @@
 {
   "id": "watchdog",
-  "date": "2026-11-10T04:48:38Z",
+  "date": "2026-11-11T04:46:37Z",
   "result": "ok",
-  "summary": "All seven cloud agents on time; nightly workflows started late (04:09-04:46 UTC), e2e and install still running; model catalog updater red a 15th night with its issue unapproved; machine offline; 15 items wait.",
+  "summary": "All seven cloud agents on time and nightly workflows all started; all three red: new e2e codex Up failure, install #99 Lima stall, model catalog a 16th night; machine offline; 16 items wait.",
   "waiting": [
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/42757928771",
-      "action": "model-catalog-20261027-1 (create-issue): GPT-5.5 guidance match includes a page layout tag; the updater has failed fifteen nights running."
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/42942611277",
+      "action": "ci-watch-20261111-1 (create-issue): codex Up E2E finds langfuse-web exited right after init; the test captures no container logs."
     },
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/42757928771",
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/42949507390",
+      "action": "model-catalog-20261027-1 (create-issue): GPT-5.5 guidance match includes a page layout tag; the updater has failed sixteen nights running."
+    },
+    {
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/42949507390",
       "action": "ci-watch-20261027-1 (create-issue): same failure, issue linking #255; answer together with model-catalog-20261027-1."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/99",
-      "action": "ci-watch-20261109-1 (comment-issue): add the seven Lima and two Colima boot stalls since 10-24 to #99."
-    },
-    {
-      "link": "https://github.com/taxiway-sh/taxiway/actions",
-      "action": "ci-watch: no nightly run had started by 04:05; all three started 04:09-04:46 UTC, hours late. Its 07:00 run rechecks; no action unless it recurs."
+      "action": "ci-watch-20261111-2 (comment-issue): add the eight Lima and two Colima boot stalls since 10-24 to #99."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/315",
