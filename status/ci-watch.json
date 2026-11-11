@@ -1,8 +1,8 @@
 {
   "id": "ci-watch",
-  "date": "2026-11-11T04:06:06Z",
+  "date": "2026-11-11T07:06:15Z",
   "result": "ok",
-  "summary": "e2e red on codex Up: langfuse-web exited right after init, cause unknown (no container logs); install macOS/lima #99 boot stall; model catalog red for the 16th night; 11-10 e2e rerun superseded.",
+  "summary": "Catch-up: no nightly run was pending; the langfuse-web, model catalog and #99 proposals still wait on the maintainer.",
   "waiting": [
     {
       "link": "https://github.com/taxiway-sh/taxiway/actions/runs/42942611277",
@@ -17,12 +17,5 @@
       "action": "ci-watch-20261111-2 (comment-issue): add the 11-11, 11-09, 11-08, 11-07, 11-05, 11-02, 10-30, 10-28 Lima and 11-06, 10-24 Colima stalls to #99; supersedes ci-watch-20261109-1."
     }
   ],
-  "promptVersion": "b84fc74ceb53afbd14cb67bcaec7e22a37892757",
-  "frictions": [
-    {
-      "kind": "check-not-run",
-      "summary": "The E2E log holds no langfuse-web container output, so why it exited could not be diagnosed.",
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/42942611277"
-    }
-  ]
+  "promptVersion": "b84fc74ceb53afbd14cb67bcaec7e22a37892757"
 }
