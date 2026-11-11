@@ -1,28 +1,28 @@
 {
   "id": "ci-watch",
-  "date": "2026-11-10T07:07:22Z",
+  "date": "2026-11-11T04:06:06Z",
   "result": "ok",
-  "summary": "Catch-up: runs started ~6h late; e2e red on claude-code and codex from an Ubuntu security mirror sync (apt 404 / size mismatch), install macOS/lima lost its runner, model catalog red for the 15th night.",
+  "summary": "e2e red on codex Up: langfuse-web exited right after init, cause unknown (no container logs); install macOS/lima #99 boot stall; model catalog red for the 16th night; 11-10 e2e rerun superseded.",
   "waiting": [
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/42754034892",
-      "action": "ci-watch-20261110-1 (rerun-workflow): rerun the failed e2e (claude-code) and e2e (codex) jobs; apt hit an Ubuntu mirror sync in progress."
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/42942611277",
+      "action": "ci-watch-20261111-1 (create-issue): open an issue: codex Up E2E finds langfuse-web exited after init; the test captures no container logs."
     },
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/42757928771",
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/42949507390",
       "action": "ci-watch-20261027-1 (create-issue): open an issue linking #255: the GPT-5.5 guidance pin breaks on a changed ContentModeSwitch tag."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/99",
-      "action": "ci-watch-20261109-1 (comment-issue): add the 11-09, 11-08, 11-07, 11-05, 11-02, 10-30, 10-28 Lima and 11-06, 10-24 Colima boot stalls to #99; supersedes ci-watch-20261108-1."
+      "action": "ci-watch-20261111-2 (comment-issue): add the 11-11, 11-09, 11-08, 11-07, 11-05, 11-02, 10-30, 10-28 Lima and 11-06, 10-24 Colima stalls to #99; supersedes ci-watch-20261109-1."
     }
   ],
   "promptVersion": "b84fc74ceb53afbd14cb67bcaec7e22a37892757",
   "frictions": [
     {
       "kind": "check-not-run",
-      "summary": "The lost-runner macOS/lima job log was unavailable; diagnosis rests on the job annotation and step timings.",
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/42755376699"
+      "summary": "The E2E log holds no langfuse-web container output, so why it exited could not be diagnosed.",
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/42942611277"
     }
   ]
 }
