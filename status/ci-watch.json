@@ -1,16 +1,16 @@
 {
   "id": "ci-watch",
-  "date": "2026-11-12T04:05:58Z",
+  "date": "2026-11-12T07:06:15Z",
   "result": "ok",
-  "summary": "e2e and install green on main; tonight's model catalog run had not started yet (pending for the 07:00 catch-up); langfuse-web, model catalog and #99 proposals still wait.",
+  "summary": "Catch-up: model catalog red for the 17th night on the ChatGPT ContentModeSwitch change, still without an issue; e2e and install green.",
   "waiting": [
+    {
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/43152559353",
+      "action": "ci-watch-20261027-1 (create-issue): open an issue linking #255: the GPT-5.5 guidance pin breaks on a changed ContentModeSwitch tag."
+    },
     {
       "link": "https://github.com/taxiway-sh/taxiway/actions/runs/42942611277",
       "action": "ci-watch-20261111-1 (create-issue): open an issue: codex Up E2E finds langfuse-web exited after init; the test captures no container logs."
-    },
-    {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/42949507390",
-      "action": "ci-watch-20261027-1 (create-issue): open an issue linking #255: the GPT-5.5 guidance pin breaks on a changed ContentModeSwitch tag."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/99",
