@@ -1,8 +1,8 @@
 {
   "id": "ci-watch",
-  "date": "2026-11-11T07:06:15Z",
+  "date": "2026-11-12T04:05:58Z",
   "result": "ok",
-  "summary": "Catch-up: no nightly run was pending; the langfuse-web, model catalog and #99 proposals still wait on the maintainer.",
+  "summary": "e2e and install green on main; tonight's model catalog run had not started yet (pending for the 07:00 catch-up); langfuse-web, model catalog and #99 proposals still wait.",
   "waiting": [
     {
       "link": "https://github.com/taxiway-sh/taxiway/actions/runs/42942611277",
