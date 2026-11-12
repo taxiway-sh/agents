@@ -1,20 +1,20 @@
 {
   "id": "watchdog",
-  "date": "2026-11-11T04:46:37Z",
+  "date": "2026-11-12T04:51:08Z",
   "result": "ok",
-  "summary": "All seven cloud agents on time and nightly workflows all started; all three red: new e2e codex Up failure, install #99 Lima stall, model catalog a 16th night; machine offline; 16 items wait.",
+  "summary": "All seven cloud agents on time and nightly workflows all started; e2e and install green; model catalog updater red a 17th night with its issue still unapproved; machine offline; 16 items wait.",
   "waiting": [
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/42942611277",
-      "action": "ci-watch-20261111-1 (create-issue): codex Up E2E finds langfuse-web exited right after init; the test captures no container logs."
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/43152559353",
+      "action": "model-catalog-20261027-1 (create-issue): GPT-5.5 guidance match includes a page layout tag; the updater has failed seventeen nights running."
     },
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/42949507390",
-      "action": "model-catalog-20261027-1 (create-issue): GPT-5.5 guidance match includes a page layout tag; the updater has failed sixteen nights running."
-    },
-    {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/42949507390",
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/43152559353",
       "action": "ci-watch-20261027-1 (create-issue): same failure, issue linking #255; answer together with model-catalog-20261027-1."
+    },
+    {
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/42942611277",
+      "action": "ci-watch-20261111-1 (create-issue): codex Up E2E found langfuse-web exited after init on 11-11 (green again 11-12); no container logs captured."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/99",
