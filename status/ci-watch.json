@@ -1,8 +1,8 @@
 {
   "id": "ci-watch",
-  "date": "2026-11-13T04:05:54Z",
+  "date": "2026-11-13T07:06:33Z",
   "result": "ok",
-  "summary": "install.yml red on macOS/lima with the #99 boot stall; model catalog red for the 18th night, still without an issue; e2e green.",
+  "summary": "Catch-up: no nightly run was pending; the model catalog, langfuse-web and #99 proposals still wait on the maintainer.",
   "waiting": [
     {
       "link": "https://github.com/taxiway-sh/taxiway/actions/runs/43359734518",
