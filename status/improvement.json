@@ -1,12 +1,16 @@
 {
   "id": "improvement",
-  "date": "2026-11-09T03:46:45Z",
+  "date": "2026-11-16T03:46:10Z",
   "result": "ok",
-  "summary": "Week 2026-11-02..09: no PRs merged and no maintainer answers for a second week; no new proposals, the four pending ones still wait, and nightly install.yml failed 6 of 7 nights on the #99 boot stall.",
+  "summary": "Week 2026-11-09..16: third week with no PRs merged and no maintainer answers; one new proposal (E2E failure diagnostics), four still pending, and the model catalog updater red for 20 nights.",
   "waiting": [
     {
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/42942611277",
+      "action": "improvement-20261116-1 (create-issue): propose an issue for e2e.yml to collect sanitized lab container logs on failure, as install.yml does; a codex E2E failure on 2026-11-11 could not be diagnosed."
+    },
+    {
       "link": "https://github.com/taxiway-sh/agents/commit/0095b1d",
-      "action": "improvement-20261102-1 (create-issue, then change-agent-system draft PR): run the contributions agent twice per weekday instead of four times; 46 of its 51 runs since 2026-10-21 found no new activity."
+      "action": "improvement-20261102-1 (create-issue, then change-agent-system draft PR): run the contributions agent twice per weekday instead of four times; 66 of its 71 runs since 2026-10-21 found no new activity."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/pull/297",
