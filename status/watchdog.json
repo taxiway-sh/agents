@@ -1,24 +1,28 @@
 {
   "id": "watchdog",
-  "date": "2026-11-15T04:45:57Z",
+  "date": "2026-11-16T04:46:08Z",
   "result": "ok",
-  "summary": "All seven cloud agents on time and nightly workflows all started; e2e and install green; model catalog updater red a 20th night with its issue still unapproved; machine offline; 16 items wait.",
+  "summary": "All seven cloud agents on time and nightly workflows all started; e2e and install green; model catalog updater red a 21st night with its issue unapproved; third week without maintainer answers; 17 items wait.",
   "waiting": [
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/43670312223",
-      "action": "model-catalog-20261027-1 (create-issue): GPT-5.5 guidance match includes a page layout tag; the updater has failed twenty nights running."
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/43795414855",
+      "action": "model-catalog-20261027-1 (create-issue): GPT-5.5 guidance match includes a page layout tag; the updater has failed 21 nights running."
     },
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/43670312223",
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/43795414855",
       "action": "ci-watch-20261027-1 (create-issue): same failure, issue linking #255; answer together with model-catalog-20261027-1."
     },
     {
-      "link": "https://github.com/taxiway-sh/taxiway/issues/99",
-      "action": "ci-watch-20261113-1 (comment-issue): add the 11 Lima and Colima boot stalls of 10-24 to 11-13 to #99."
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/42942611277",
+      "action": "improvement-20261116-1 (create-issue): have e2e.yml collect sanitized lab container logs on failure, as install.yml does."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/actions/runs/42942611277",
       "action": "ci-watch-20261111-1 (create-issue): codex Up E2E found langfuse-web exited after init on 11-11; no container logs captured."
+    },
+    {
+      "link": "https://github.com/taxiway-sh/taxiway/issues/99",
+      "action": "ci-watch-20261113-1 (comment-issue): add the 11 Lima and Colima boot stalls of 10-24 to 11-13 to #99."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/315",
@@ -50,7 +54,7 @@
     },
     {
       "link": "https://github.com/taxiway-sh/agents/commit/0095b1d",
-      "action": "improvement-20261102-1 (create-issue, then draft PR): run the contributions agent twice per weekday; 46 of its 51 runs found nothing new."
+      "action": "improvement-20261102-1 (create-issue, then draft PR): run the contributions agent twice per weekday; 66 of its 71 runs found nothing new."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/pull/297",
