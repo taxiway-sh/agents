@@ -1,11 +1,11 @@
 {
   "id": "ci-watch",
-  "date": "2026-11-15T07:05:22Z",
+  "date": "2026-11-16T04:05:39Z",
   "result": "ok",
-  "summary": "Catch-up: no nightly run was pending; the model catalog, langfuse-web and #99 proposals still wait on the maintainer.",
+  "summary": "model-catalog-update.yml red for the 21st night on the ChatGPT ContentModeSwitch change, still without an issue; e2e and install green.",
   "waiting": [
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/43670312223",
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/43795414855",
       "action": "ci-watch-20261027-1 (create-issue): open an issue linking #255: the GPT-5.5 guidance pin breaks on a changed ContentModeSwitch tag."
     },
     {
