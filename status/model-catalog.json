@@ -1,8 +1,8 @@
 {
   "id": "model-catalog",
-  "date": "2026-11-16T03:51:06Z",
+  "date": "2026-11-17T03:51:21Z",
   "result": "partial",
-  "summary": "Unchanged since the previous run: the 2026-11-16 updater run failed again at preparation on the ChatGPT GPT-5.5 notice (twenty-first day). No review PR; #303 still draft.",
+  "summary": "No updater run yet for 2026-11-17 at check time; the last one (2026-11-16) failed on the ChatGPT GPT-5.5 notice, twenty-first day in a row. No review PR; #303 still draft.",
   "waiting": [
     {
       "link": "https://github.com/taxiway-sh/taxiway/actions/runs/43795414855",
