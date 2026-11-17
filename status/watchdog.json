@@ -1,12 +1,20 @@
 {
   "id": "watchdog",
-  "date": "2026-11-16T04:46:08Z",
+  "date": "2026-11-17T04:45:57Z",
   "result": "ok",
-  "summary": "All seven cloud agents on time and nightly workflows all started; e2e and install green; model catalog updater red a 21st night with its issue unapproved; third week without maintainer answers; 17 items wait.",
+  "summary": "All seven cloud agents on time; nightly runs late again: e2e started 04:32 UTC, install and model catalog not started in 24h; model catalog red 21 nights with its issue unapproved; 18 items wait.",
   "waiting": [
     {
+      "link": "https://github.com/taxiway-sh/taxiway/actions/workflows/install.yml",
+      "action": "No scheduled install.yml run started in the past 24h (last 11-16 02:24 UTC); e2e started late at 04:32. CI watch rechecks at 07:00."
+    },
+    {
+      "link": "https://github.com/taxiway-sh/taxiway/actions/workflows/model-catalog-update.yml",
+      "action": "No scheduled model-catalog-update.yml run started in the past 24h (last 11-16 02:59 UTC). CI watch rechecks at 07:00."
+    },
+    {
       "link": "https://github.com/taxiway-sh/taxiway/actions/runs/43795414855",
-      "action": "model-catalog-20261027-1 (create-issue): GPT-5.5 guidance match includes a page layout tag; the updater has failed 21 nights running."
+      "action": "model-catalog-20261027-1 (create-issue): GPT-5.5 guidance match includes a page layout tag; the updater failed its last 21 runs."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/actions/runs/43795414855",
