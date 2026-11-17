@@ -1,11 +1,11 @@
 {
   "id": "ci-watch",
-  "date": "2026-11-17T04:06:13Z",
+  "date": "2026-11-17T07:06:02Z",
   "result": "ok",
-  "summary": "Tonight's nightly runs had not started at check time (pending, as on 11-10); the 07:00 catch-up rechecks. Model catalog, langfuse-web and #99 proposals still wait.",
+  "summary": "Catch-up: runs started late (04:33); install red on macOS/lima with the #99 boot stall, model catalog red for the 22nd night, e2e green.",
   "waiting": [
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/43795414855",
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/44022506416",
       "action": "ci-watch-20261027-1 (create-issue): open an issue linking #255: the GPT-5.5 guidance pin breaks on a changed ContentModeSwitch tag."
     },
     {
@@ -14,7 +14,7 @@
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/99",
-      "action": "ci-watch-20261113-1 (comment-issue): add the 11 Lima and Colima boot stalls of 10-24 to 11-13 to #99; supersedes ci-watch-20261111-2."
+      "action": "ci-watch-20261117-1 (comment-issue): add the 12 Lima and Colima boot stalls of 10-24 to 11-17 to #99; supersedes ci-watch-20261113-1."
     }
   ],
   "promptVersion": "b84fc74ceb53afbd14cb67bcaec7e22a37892757"
