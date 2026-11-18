@@ -1,23 +1,15 @@
 {
   "id": "watchdog",
-  "date": "2026-11-17T04:45:57Z",
+  "date": "2026-11-18T04:46:48Z",
   "result": "ok",
-  "summary": "All seven cloud agents on time; nightly runs late again: e2e started 04:32 UTC, install and model catalog not started in 24h; model catalog red 21 nights with its issue unapproved; 18 items wait.",
+  "summary": "All seven cloud agents on time; all three nightly workflows started in the past 24h. Model catalog updater red 23 runs with its issue unapproved; install hit another #99 boot stall on 11-17; 17 items wait.",
   "waiting": [
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/workflows/install.yml",
-      "action": "No scheduled install.yml run started in the past 24h (last 11-16 02:24 UTC); e2e started late at 04:32. CI watch rechecks at 07:00."
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/44238965054",
+      "action": "model-catalog-20261027-1 (create-issue): GPT-5.5 guidance match includes a page layout tag; the updater failed its last 23 runs."
     },
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/workflows/model-catalog-update.yml",
-      "action": "No scheduled model-catalog-update.yml run started in the past 24h (last 11-16 02:59 UTC). CI watch rechecks at 07:00."
-    },
-    {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/43795414855",
-      "action": "model-catalog-20261027-1 (create-issue): GPT-5.5 guidance match includes a page layout tag; the updater failed its last 21 runs."
-    },
-    {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/43795414855",
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/44022506416",
       "action": "ci-watch-20261027-1 (create-issue): same failure, issue linking #255; answer together with model-catalog-20261027-1."
     },
     {
@@ -30,7 +22,7 @@
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/99",
-      "action": "ci-watch-20261113-1 (comment-issue): add the 11 Lima and Colima boot stalls of 10-24 to 11-13 to #99."
+      "action": "ci-watch-20261117-1 (comment-issue): add the 12 Lima and Colima boot stalls of 10-24 to 11-17 to #99; supersedes ci-watch-20261113-1."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/315",
@@ -47,6 +39,10 @@
     {
       "link": "https://github.com/taxiway-sh/taxiway/pull/95",
       "action": "contributions-20261023-1: approve the COMMENT re-review saying CI waits on #243."
+    },
+    {
+      "link": "https://github.com/taxiway-sh/taxiway/pull/96",
+      "action": "Contributions: waits on #243 before fork CI approval, then a Taxiway branch for lifecycle E2E. Nothing asked of the contributor."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues",
