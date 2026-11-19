@@ -1,8 +1,8 @@
 {
   "id": "ci-watch",
-  "date": "2026-11-18T07:06:07Z",
+  "date": "2026-11-19T04:06:06Z",
   "result": "ok",
-  "summary": "Catch-up: install macOS/lima lost its runner during Verify installation (3rd time, after 11-03 and 11-10); model catalog red for the 23rd night; e2e green.",
+  "summary": "Tonight's e2e and install runs still in progress and the model catalog run not started at check time; the 07:00 catch-up rechecks. Earlier proposals still wait.",
   "waiting": [
     {
       "link": "https://github.com/taxiway-sh/taxiway/actions/runs/44238965054",
@@ -17,12 +17,5 @@
       "action": "ci-watch-20261118-1 (comment-issue): add the 12 Lima/Colima boot stalls of 10-24 to 11-17 and the macOS/lima lost runners of 11-03, 11-10, 11-18 to #99; supersedes -20261117-1."
     }
   ],
-  "promptVersion": "b84fc74ceb53afbd14cb67bcaec7e22a37892757",
-  "frictions": [
-    {
-      "kind": "check-not-run",
-      "summary": "The lost-runner macOS/lima job log was unavailable; diagnosis rests on the job annotation and step timings.",
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/44233545259"
-    }
-  ]
+  "promptVersion": "b84fc74ceb53afbd14cb67bcaec7e22a37892757"
 }
