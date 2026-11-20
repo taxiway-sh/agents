@@ -1,8 +1,8 @@
 {
   "id": "ci-watch",
-  "date": "2026-11-19T07:06:07Z",
-  "result": "ok",
-  "summary": "Catch-up: e2e and install green; model catalog red for the 24th night on the ChatGPT ContentModeSwitch change, still without an issue.",
+  "date": "2026-11-20T04:06:34Z",
+  "result": "partial",
+  "summary": "e2e green; install still running and tonight's model catalog run not started yet, both left to the 07:05 catch-up. Model catalog was red for 24 nights through 11-19, still without an issue.",
   "waiting": [
     {
       "link": "https://github.com/taxiway-sh/taxiway/actions/runs/44458428341",
@@ -15,6 +15,13 @@
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/99",
       "action": "ci-watch-20261118-1 (comment-issue): add the 12 Lima/Colima boot stalls of 10-24 to 11-17 and the macOS/lima lost runners of 11-03, 11-10, 11-18 to #99; supersedes -20261117-1."
+    }
+  ],
+  "frictions": [
+    {
+      "kind": "check-not-run",
+      "summary": "At 04:05 the install run was still in progress and the model catalog schedule had not fired; both checks deferred to the catch-up.",
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/44669740610"
     }
   ],
   "promptVersion": "b84fc74ceb53afbd14cb67bcaec7e22a37892757"
