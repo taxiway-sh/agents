@@ -1,8 +1,8 @@
 {
   "id": "ci-watch",
-  "date": "2026-11-22T04:06:16Z",
+  "date": "2026-11-22T07:05:28Z",
   "result": "ok",
-  "summary": "e2e and install green tonight; model catalog red for the 27th night on the ChatGPT ContentModeSwitch change, still without an issue. Install failed 11-20 (macOS/docker lost runner) and 11-21 (Lima boot stall, #99).",
+  "summary": "Catch-up: nothing pending from the 04:05 full check. e2e and install green; model catalog red for the 27th night on the ChatGPT ContentModeSwitch change, still without an issue.",
   "waiting": [
     {
       "link": "https://github.com/taxiway-sh/taxiway/actions/runs/44980624018",
@@ -15,18 +15,6 @@
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/99",
       "action": "ci-watch-20261122-1 (comment-issue): add the 13 Lima/Colima boot stalls of 10-24 to 11-21 and the macOS/lima lost runners of 11-03, 11-10, 11-18 to #99; supersedes -20261118-1."
-    }
-  ],
-  "frictions": [
-    {
-      "kind": "check-not-run",
-      "summary": "The 11-20 catch-up and both 11-21 runs were not delivered until 11-22 04:05 after a worker restart; this run covered the missed nights.",
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/44861540826"
-    },
-    {
-      "kind": "check-not-run",
-      "summary": "Install 11-20: the macOS/docker runner lost contact and left no job log, so the cause could not be diagnosed; not added to #99.",
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/44669740610"
     }
   ],
   "promptVersion": "b84fc74ceb53afbd14cb67bcaec7e22a37892757"
