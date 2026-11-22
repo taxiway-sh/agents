@@ -1,15 +1,19 @@
 {
   "id": "watchdog",
-  "date": "2026-11-20T04:46:28Z",
+  "date": "2026-11-22T04:46:33Z",
   "result": "ok",
-  "summary": "All seven cloud agents on time; all three nightly workflows ran in the past 24h. Model catalog updater red 25 runs with its issue unapproved; 17 items wait.",
+  "summary": "Weekly usage limit hit 11-20 to 11-22: contributions missed its 11-20 runs and three agents skipped 11-21; all run again now. Model catalog updater red 27 runs, issue unapproved; 18 items wait.",
   "waiting": [
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/44672982484",
-      "action": "model-catalog-20261027-1 (create-issue): GPT-5.5 guidance match includes a page layout tag; the updater failed its last 25 runs."
+      "link": "https://github.com/taxiway-sh/agents/commits/main",
+      "action": "Weekly usage limit hit on 11-20 (reset 11-22 03:00 UTC): contributions missed four runs, ci-watch, model-catalog and watchdog missed 11-21."
     },
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/44458428341",
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/44980624018",
+      "action": "model-catalog-20261027-1 (create-issue): GPT-5.5 guidance match includes a page layout tag; the updater failed its last 27 runs."
+    },
+    {
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/44980624018",
       "action": "ci-watch-20261027-1 (create-issue): same failure, issue linking #255; answer together with model-catalog-20261027-1."
     },
     {
@@ -22,7 +26,7 @@
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/99",
-      "action": "ci-watch-20261118-1 (comment-issue): add the 12 Lima/Colima boot stalls of 10-24 to 11-17 and the lost macOS runners of 11-03, 11-10, 11-18 to #99."
+      "action": "ci-watch-20261122-1 (comment-issue): add the 13 Lima/Colima boot stalls of 10-24 to 11-21 and the lost macOS runners of 11-03, 11-10, 11-18 to #99."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/315",
