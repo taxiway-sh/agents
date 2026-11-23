@@ -1,20 +1,24 @@
 {
   "id": "watchdog",
-  "date": "2026-11-22T04:46:33Z",
+  "date": "2026-11-23T04:46:27Z",
   "result": "ok",
-  "summary": "Weekly usage limit hit 11-20 to 11-22: contributions missed its 11-20 runs and three agents skipped 11-21; all run again now. Model catalog updater red 27 runs, issue unapproved; 18 items wait.",
+  "summary": "Six cloud agents on time; contributions late since its 11-20 runs hit the usage limit. Nightlies ran; model catalog updater red 28 runs, issue unapproved; 17 proposals wait.",
   "waiting": [
     {
-      "link": "https://github.com/taxiway-sh/agents/commits/main",
-      "action": "Weekly usage limit hit on 11-20 (reset 11-22 03:00 UTC): contributions missed four runs, ci-watch, model-catalog and watchdog missed 11-21."
+      "link": "https://github.com/taxiway-sh/agents/blob/main/status/contributions.json",
+      "action": "Contributions late: no heartbeat since 11-19 16:21 UTC; its 11-20 runs hit the weekly usage limit. Next run today 07:20 UTC."
     },
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/44980624018",
-      "action": "model-catalog-20261027-1 (create-issue): GPT-5.5 guidance match includes a page layout tag; the updater failed its last 27 runs."
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/45108888227",
+      "action": "model-catalog-20261027-1 (create-issue): GPT-5.5 guidance match includes a page layout tag; the updater failed its last 28 runs."
     },
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/44980624018",
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/45108888227",
       "action": "ci-watch-20261027-1 (create-issue): same failure, issue linking #255; answer together with model-catalog-20261027-1."
+    },
+    {
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/44669740610",
+      "action": "improvement-20261123-1 (create-issue, then draft PRs): move ci-watch and model-catalog later; nightlies end as late as 05:27 UTC."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/actions/runs/42942611277",
@@ -62,7 +66,7 @@
     },
     {
       "link": "https://github.com/taxiway-sh/agents/commit/0095b1d",
-      "action": "improvement-20261102-1 (create-issue, then draft PR): run the contributions agent twice per weekday; 66 of its 71 runs found nothing new."
+      "action": "improvement-20261102-1 (create-issue, then draft PR): run the contributions agent twice per weekday; 82 of its 87 runs found nothing new."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/pull/297",
