@@ -1,8 +1,8 @@
 {
   "id": "ci-watch",
-  "date": "2026-11-23T04:05:28Z",
+  "date": "2026-11-23T07:05:30Z",
   "result": "ok",
-  "summary": "e2e and install green; model catalog red for the 28th night on the ChatGPT ContentModeSwitch change, still without an issue.",
+  "summary": "Catch-up: nothing pending from the 04:05 full check. e2e and install green; model catalog red for the 28th night on the ChatGPT ContentModeSwitch change, still without an issue.",
   "waiting": [
     {
       "link": "https://github.com/taxiway-sh/taxiway/actions/runs/45108888227",
