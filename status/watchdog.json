@@ -1,12 +1,12 @@
 {
   "id": "watchdog",
-  "date": "2026-11-23T04:46:27Z",
+  "date": "2026-11-24T04:46:32Z",
   "result": "ok",
-  "summary": "Six cloud agents on time; contributions late since its 11-20 runs hit the usage limit. Nightlies ran; model catalog updater red 28 runs, issue unapproved; 17 proposals wait.",
+  "summary": "All seven cloud agents on time; contributions is back. No nightly workflow started in the past 24h (GitHub schedule delays). Model catalog updater red 28 runs, issue unapproved; 17 proposals wait.",
   "waiting": [
     {
-      "link": "https://github.com/taxiway-sh/agents/blob/main/status/contributions.json",
-      "action": "Contributions late: no heartbeat since 11-19 16:21 UTC; its 11-20 runs hit the weekly usage limit. Next run today 07:20 UTC."
+      "link": "https://github.com/taxiway-sh/taxiway/actions",
+      "action": "No scheduled run of e2e.yml, install.yml or model-catalog-update.yml started in the past 24h (last ones 11-23 02:51-03:56 UTC). CI watch rechecks at 07:05."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/actions/runs/45108888227",
@@ -47,10 +47,6 @@
     {
       "link": "https://github.com/taxiway-sh/taxiway/pull/95",
       "action": "contributions-20261023-1: approve the COMMENT re-review saying CI waits on #243."
-    },
-    {
-      "link": "https://github.com/taxiway-sh/taxiway/pull/96",
-      "action": "Contributions: waits on #243 before fork CI approval, then a Taxiway branch for lifecycle E2E. Nothing asked of the contributor."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues",
