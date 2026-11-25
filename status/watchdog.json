@@ -1,19 +1,15 @@
 {
   "id": "watchdog",
-  "date": "2026-11-24T04:46:32Z",
+  "date": "2026-11-25T04:46:43Z",
   "result": "ok",
-  "summary": "All seven cloud agents on time; contributions is back. No nightly workflow started in the past 24h (GitHub schedule delays). Model catalog updater red 28 runs, issue unapproved; 17 proposals wait.",
+  "summary": "All seven cloud agents on time; nightlies started 06:05-07:03 UTC on 11-24 and install failed on #99 again. Model catalog updater red 29 runs, issue unapproved; 17 proposals wait.",
   "waiting": [
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions",
-      "action": "No scheduled run of e2e.yml, install.yml or model-catalog-update.yml started in the past 24h (last ones 11-23 02:51-03:56 UTC). CI watch rechecks at 07:05."
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/45345069294",
+      "action": "model-catalog-20261027-1 (create-issue): GPT-5.5 guidance match includes a page layout tag; the updater failed its last 29 runs."
     },
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/45108888227",
-      "action": "model-catalog-20261027-1 (create-issue): GPT-5.5 guidance match includes a page layout tag; the updater failed its last 28 runs."
-    },
-    {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/45108888227",
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/45345069294",
       "action": "ci-watch-20261027-1 (create-issue): same failure, issue linking #255; answer together with model-catalog-20261027-1."
     },
     {
@@ -30,7 +26,7 @@
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/99",
-      "action": "ci-watch-20261122-1 (comment-issue): add the 13 Lima/Colima boot stalls of 10-24 to 11-21 and the lost macOS runners of 11-03, 11-10, 11-18 to #99."
+      "action": "ci-watch-20261125-1 (comment-issue): add the 14 Lima/Colima boot stalls of 10-24 to 11-24 and the lost macOS runners of 11-03, 11-10, 11-18, 11-24 to #99."
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/315",
