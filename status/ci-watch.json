@@ -1,11 +1,11 @@
 {
   "id": "ci-watch",
-  "date": "2026-11-25T04:06:13Z",
-  "result": "partial",
-  "summary": "Tonight's runs not started at 04:05; left to the 07:05 catch-up. Install 11-24 failed on #99 (Linux/lima boot stall, macOS/lima lost runner). Model catalog red 29 nights through 11-24, still without an issue.",
+  "date": "2026-11-25T07:06:19Z",
+  "result": "ok",
+  "summary": "e2e green; install red on a macOS/docker lost runner (second after 11-20, no log); model catalog red for the 30th night on the ChatGPT ContentModeSwitch change, still without an issue.",
   "waiting": [
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/45345069294",
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/45554961371",
       "action": "ci-watch-20261027-1 (create-issue): open an issue linking #255: the GPT-5.5 guidance pin breaks on a changed ContentModeSwitch tag."
     },
     {
@@ -20,13 +20,8 @@
   "frictions": [
     {
       "kind": "check-not-run",
-      "summary": "At 04:05 no scheduled run existed yet for 11-25; all three checks deferred to the catch-up.",
-      "link": "https://github.com/taxiway-sh/taxiway/actions"
-    },
-    {
-      "kind": "check-not-run",
-      "summary": "Install 11-24: the macOS/lima job log is gone (BlobNotFound) after the lost runner; the Linux/lima log shows the #99 boot stall.",
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/45340713348"
+      "summary": "Install 11-25: the macOS/docker runner lost contact and left no job log, as on 11-20; cause not diagnosable, no issue proposed yet.",
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/45550912986"
     }
   ],
   "promptVersion": "b84fc74ceb53afbd14cb67bcaec7e22a37892757"
