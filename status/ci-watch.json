@@ -1,8 +1,8 @@
 {
   "id": "ci-watch",
-  "date": "2026-11-24T07:05:56Z",
+  "date": "2026-11-25T04:06:13Z",
   "result": "partial",
-  "summary": "Nightly runs started about 2h late. e2e green; install still running at 07:05; model catalog red for the 29th night on the ChatGPT ContentModeSwitch change, still without an issue.",
+  "summary": "Tonight's runs not started at 04:05; left to the 07:05 catch-up. Install 11-24 failed on #99 (Linux/lima boot stall, macOS/lima lost runner). Model catalog red 29 nights through 11-24, still without an issue.",
   "waiting": [
     {
       "link": "https://github.com/taxiway-sh/taxiway/actions/runs/45345069294",
@@ -14,13 +14,18 @@
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/99",
-      "action": "ci-watch-20261122-1 (comment-issue): add the 13 Lima/Colima boot stalls of 10-24 to 11-21 and the macOS/lima lost runners of 11-03, 11-10, 11-18 to #99; supersedes -20261118-1."
+      "action": "ci-watch-20261125-1 (comment-issue): add the 14 Lima/Colima boot stalls of 10-24 to 11-24 and the macOS/lima lost runners of 11-03, 11-10, 11-18, 11-24 to #99; supersedes -20261122-1."
     }
   ],
   "frictions": [
     {
       "kind": "check-not-run",
-      "summary": "Scheduled runs started 06:05-07:03 UTC, after the 04:05 check; install was still running at 07:05 and has no later check today.",
+      "summary": "At 04:05 no scheduled run existed yet for 11-25; all three checks deferred to the catch-up.",
+      "link": "https://github.com/taxiway-sh/taxiway/actions"
+    },
+    {
+      "kind": "check-not-run",
+      "summary": "Install 11-24: the macOS/lima job log is gone (BlobNotFound) after the lost runner; the Linux/lima log shows the #99 boot stall.",
       "link": "https://github.com/taxiway-sh/taxiway/actions/runs/45340713348"
     }
   ],
