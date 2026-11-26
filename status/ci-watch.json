@@ -1,8 +1,8 @@
 {
   "id": "ci-watch",
-  "date": "2026-11-25T07:06:19Z",
-  "result": "ok",
-  "summary": "e2e green; install red on a macOS/docker lost runner (second after 11-20, no log); model catalog red for the 30th night on the ChatGPT ContentModeSwitch change, still without an issue.",
+  "date": "2026-11-26T04:05:14Z",
+  "result": "partial",
+  "summary": "None of tonight's three scheduled runs had started at 04:05; all left to the 07:05 run. Model catalog was red 30 nights through 11-25, still without an issue.",
   "waiting": [
     {
       "link": "https://github.com/taxiway-sh/taxiway/actions/runs/45554961371",
@@ -20,8 +20,8 @@
   "frictions": [
     {
       "kind": "check-not-run",
-      "summary": "Install 11-25: the macOS/docker runner lost contact and left no job log, as on 11-20; cause not diagnosable, no issue proposed yet.",
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/45550912986"
+      "summary": "At 04:05 no scheduled run existed yet for 11-26; all three checks deferred to the 07:05 run.",
+      "link": "https://github.com/taxiway-sh/taxiway/actions"
     }
   ],
   "promptVersion": "b84fc74ceb53afbd14cb67bcaec7e22a37892757"
