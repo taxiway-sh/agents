@@ -1,11 +1,11 @@
 {
   "id": "ci-watch",
-  "date": "2026-11-27T04:05:50Z",
-  "result": "partial",
-  "summary": "None of tonight's three scheduled runs had started at 04:05; all left to the 07:05 run. Model catalog was red 31 nights through 11-26, still without an issue.",
+  "date": "2026-11-27T07:06:19Z",
+  "result": "ok",
+  "summary": "e2e green; install red on a macOS/lima lost runner (#99, fifth such loss); model catalog red for the 32nd night on the ChatGPT ContentModeSwitch change, still without an issue.",
   "waiting": [
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/45761228977",
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/45944947806",
       "action": "ci-watch-20261027-1 (create-issue): open an issue linking #255: the GPT-5.5 guidance pin breaks on a changed ContentModeSwitch tag."
     },
     {
@@ -14,14 +14,14 @@
     },
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/99",
-      "action": "ci-watch-20261125-1 (comment-issue): add the 14 Lima/Colima boot stalls of 10-24 to 11-24 and the macOS/lima lost runners of 11-03, 11-10, 11-18, 11-24 to #99; supersedes -20261122-1."
+      "action": "ci-watch-20261127-1 (comment-issue): add the 14 Lima/Colima boot stalls of 10-24 to 11-24 and the macOS/lima lost runners of 11-03, 11-10, 11-18, 11-24, 11-27 to #99; supersedes -20261125-1."
     }
   ],
   "frictions": [
     {
       "kind": "check-not-run",
-      "summary": "At 04:05 no scheduled run existed yet for 11-27; all three checks deferred to the 07:05 run.",
-      "link": "https://github.com/taxiway-sh/taxiway/actions"
+      "summary": "Install 11-27: the macOS/lima runner lost contact and left no job log; counted with #99 on the earlier lost-runner pattern.",
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/45940787974"
     }
   ],
   "promptVersion": "b84fc74ceb53afbd14cb67bcaec7e22a37892757"
