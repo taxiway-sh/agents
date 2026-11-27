@@ -1,15 +1,15 @@
 {
   "id": "watchdog",
-  "date": "2026-11-26T04:45:57Z",
+  "date": "2026-11-27T04:46:31Z",
   "result": "ok",
-  "summary": "All seven cloud agents on time; all three nightlies ran in the past 24h, install failed again on 11-25. Model catalog updater red 30 runs, issue unapproved; 17 proposals wait.",
+  "summary": "All seven cloud agents on time; all three nightlies ran in the past 24h and install passed on 11-26. Model catalog updater red 31 runs, issue unapproved; 17 proposals wait.",
   "waiting": [
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/45554961371",
-      "action": "model-catalog-20261027-1 (create-issue): GPT-5.5 guidance match includes a page layout tag; the updater failed its last 30 runs."
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/45761228977",
+      "action": "model-catalog-20261027-1 (create-issue): GPT-5.5 guidance match includes a page layout tag; the updater failed its last 31 runs."
     },
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/45554961371",
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/45761228977",
       "action": "ci-watch-20261027-1 (create-issue): same failure, issue linking #255; answer together with model-catalog-20261027-1."
     },
     {
