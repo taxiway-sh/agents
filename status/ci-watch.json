@@ -1,11 +1,11 @@
 {
   "id": "ci-watch",
-  "date": "2026-11-28T04:05:51Z",
-  "result": "partial",
-  "summary": "At 04:05 e2e was running and install and model catalog had not started; all left to the 07:05 run. Model catalog was red 32 nights through 11-27, still without an issue.",
+  "date": "2026-11-28T07:05:54Z",
+  "result": "ok",
+  "summary": "e2e and install green; model catalog red for the 33rd night on the ChatGPT ContentModeSwitch change, still without an issue.",
   "waiting": [
     {
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/45944947806",
+      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/46109727316",
       "action": "ci-watch-20261027-1 (create-issue): open an issue linking #255: the GPT-5.5 guidance pin breaks on a changed ContentModeSwitch tag."
     },
     {
@@ -15,13 +15,6 @@
     {
       "link": "https://github.com/taxiway-sh/taxiway/issues/99",
       "action": "ci-watch-20261127-1 (comment-issue): add the 14 Lima/Colima boot stalls of 10-24 to 11-24 and the macOS/lima lost runners of 11-03, 11-10, 11-18, 11-24, 11-27 to #99; supersedes -20261125-1."
-    }
-  ],
-  "frictions": [
-    {
-      "kind": "check-not-run",
-      "summary": "At 04:05 e2e 11-28 was still running and the install and model catalog schedules had not fired; all three checks deferred to the 07:05 run.",
-      "link": "https://github.com/taxiway-sh/taxiway/actions/runs/46105197292"
     }
   ],
   "promptVersion": "b84fc74ceb53afbd14cb67bcaec7e22a37892757"
